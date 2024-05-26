@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.lixinan.DemoTest" time="0.011" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\李新安\Documents\Tencent Files\2489460735\FileRecv\jdk-11.0.1\jdk-11.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\李新安\Desktop\Java代码\10\an_web_project\mavenproject01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\李新安\Desktop\Java代码\10\an_web_project\mavenproject01"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\李新安\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Users\李新安\Documents\Tencent Files\2489460735\FileRecv\jdk-11.0.1\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Python37\Scripts\;D:\Program Files\Python37\;D:\VMware\bin\;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Go\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\GOPATH\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;D:\Program Files\MongoDB\Server\4.4\bin;D:\weixinxiaocx\微信web开发者工具\dll;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jdk-11\jre\bin;D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Users\李新安\AppData\Local\Microsoft\WindowsApps;C:\Users\李新安\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\李新安\go\bin;C:\Users\李新安\AppData\Roaming\npm;C:\Users\李新安\Documents\Tencent Files\2489460735\FileRecv\apache-maven-3.6.1\bin;D:\AppServ\Apache24\bin;D:\AppServ\php7;D:\AppServ\MySQL\bin;;."/>
+    <property name="maven.conf" value="D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\mvn_repo"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\李新安"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="李新安"/>
+    <property name="java.class.path" value="D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.1 -s D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml -Dmaven.repo.local=D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\mvn_repo package"/>
+    <property name="java.home" value="C:\Users\李新安\Documents\Tencent Files\2489460735\FileRecv\jdk-11.0.1\jdk-11.0.1"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="idea.version2019.1.1" value="true"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\yuan\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.lixinan.DemoTest" name="test1" time="0.011"/>
+  <testcase classname="com.lixinan.DemoTest" name="test2" time="0"/>
+  <testcase classname="com.lixinan.DemoTest" name="test3" time="0"/>
+</testsuite>

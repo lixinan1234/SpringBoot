@@ -19,9 +19,9 @@ public class ReceiveServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
-        resp.setContentType("text/html;charset=utf-8");
+        resp.setContentType("text/html;charset=utf-8");//设置响应数据的内容的类型
 
-        String name = req.getParameter("name");
+        String name = req.getParameter("name");//从客户端获取参数为name的值
         String gen = req.getParameter("gen");
         String birthday = req.getParameter("birthday");
         String phone = req.getParameter("phone");
@@ -34,6 +34,11 @@ public class ReceiveServlet extends HttpServlet {
         Resume resume = new Resume(name, gen, birthday, phone, mail, address, school, work, skill);
         ResumeDAO resumeDAO = new ResumeDAO();
         boolean isOk = resumeDAO.insertResume(resume);
+
+        //如果isOk为true，表示插入操作成功，代码会将简历对象设置为请求属性，
+        //并将请求转发到index.jsp页面进行后续处理。
+
+        //如果isOk为false，表示插入操作失败，代码会向响应对象输出"提交失败!!!"的消息
         if (isOk){
             req.setAttribute("resume",resume);
             req.getRequestDispatcher("index.jsp").forward(req,resp);

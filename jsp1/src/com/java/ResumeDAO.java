@@ -3,6 +3,7 @@ package com.java;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 /**
@@ -26,7 +27,7 @@ public class ResumeDAO {
         String fileAddress = fileDir + "\\" + resume.name + ".txt";
         try {
             //如果文件不存在会自动创建。内容追加到后面
-            fileWriter = new FileWriter(new File(fileAddress), StandardCharsets.UTF_8,true);
+            fileWriter = new FileWriter(new File(fileAddress), Charset.forName("UTF-8"),true);
             //拼接存入内容
             String text = "简历\r\n姓名："+resume.name+"\r\n性别："+resume.gen+"\r\n出生日期："
                     +resume.birthday+"\r\n联系电话："+resume.phone+"\r\n电子邮件："+resume.mail

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/an_web_project.iml" filepath="$PROJECT_DIR$/.idea/an_web_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-project02/maven-project02.iml" filepath="$PROJECT_DIR$/maven-project02/maven-project02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenproject01/mavenproject01.iml" filepath="$PROJECT_DIR$/mavenproject01/mavenproject01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web/spring-web.iml" filepath="$PROJECT_DIR$/spring-web/spring-web.iml" />
+    </modules>
+  </component>
+</project>
