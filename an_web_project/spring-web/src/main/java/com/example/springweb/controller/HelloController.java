@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 //请求处理类
-@RestController
+/*@RestController
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
         System.out.println("Hello World~");
         return "Hello World~";
     }
-}
+}*/
