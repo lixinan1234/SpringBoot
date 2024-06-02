@@ -1,0 +1,63 @@
+-- 多表查询
+ select * from tb_emp,tb_dept where tb_emp.dept_id = tb_dept.id;
+
+-- ============================= 内连接 ==========================
+-- A. 查询员工的姓名 , 及所属的部门名称 (隐式内连接实现)
+select tb_emp.name,tb_dept.name from tb_emp,tb_dept where tb_emp.dept_id = tb_dept.id;
+
+
+-- B. 查询员工的姓名 , 及所属的部门名称 (显式内连接实现)
+select tb_emp.name,tb_dept.name from tb_emp inner join tb_dept on tb_emp.dept_id = tb_dept.id;
+
+
+
+-- =============================== 外连接 ============================
+-- A. 查询员工表 所有 员工的姓名, 和对应的部门名称 (左外连接)
+select tb_emp.name,tb_dept.name from tb_emp left outer join tb_dept on tb_emp.dept_id = tb_dept.id;
+
+-- B. 查询部门表 所有 部门的名称, 和对应的员工名称 (右外连接)
+select tb_emp.name,tb_dept.name from tb_emp right outer join tb_dept on tb_emp.dept_id = tb_dept.id;
+
+
+
+
+-- ========================= 子查询 ================================
+-- 标量子查询
+-- A. 查询 "教研部" 的所有员工信息
+-- a.查询 教研部 的部门ID tb_dept
+select id from tb_dept where name = '教研部';
+-- b.再查询该部门ID下的员工信息 tb_emp
+select * from tb_emp where dept_id = (select id from tb_dept where name = '教研部');
+
+-- B. 查询在 "方东白" 入职之后的员工信息
+-- a. 查询 方东白 的入职时间
+select entrydate from tb_emp where name = '方东白';
+-- b. 查询“方东白” 入职之后的员工信息
+select * from tb_emp where entrydate >= (select entrydate from tb_emp where name = '方东白');
+
+
+-- 列子查询
+-- A. 查询 "教研部" 和 "咨询部" 的所有员工信息
+-- a.查询 "教研部" 和 "咨询部" 的ID
+select id from tb_dept where name = '教研部' or name = '咨询部';
+-- b.根据部门ID,查询该部门下的员工信息
+select * from tb_emp where dept_id in (select id from tb_dept where name = '教研部' or name = '咨询部');
+
+
+
+
+-- 行子查询
+-- A. 查询与 "韦一笑" 的入职日期 及 职位都相同的员工信息 ;
+-- a.查询与 "韦一笑" 的入职日期 及 职位
+select entrydate,job from tb_emp where name = '韦一笑';
+-- b.查询与 "韦一笑" 的入职日期 及 职位都相同的员工信息
+select * from tb_emp where (entrydate,job) = (select entrydate,job from tb_emp where name = '韦一笑');
+
+
+
+-- 表子查询
+-- A. 查询入职日期是 "2006-01-01" 之后的员工信息 , 及其部门信息
+-- a.查询入职日期是 "2006-01-01" 之后的员工信息
+select * from tb_emp where entrydate > "2006-01-01";
+-- b.查询入职日期是 "2006-01-01" 之后的员工信息 , 及其部门信息
+select a.*,b.name from (select * from tb_emp where entrydate > "2006-01-01") a, tb_dept b where a.dept_id = b.id;
