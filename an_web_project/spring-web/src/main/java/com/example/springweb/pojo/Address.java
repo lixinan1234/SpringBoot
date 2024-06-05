@@ -20,6 +20,7 @@ public class Address {
 
     /**
      * 获取
+     *
      * @return province
      */
     public String getProvince() {
@@ -28,6 +29,7 @@ public class Address {
 
     /**
      * 设置
+     *
      * @param province
      */
     public void setProvince(String province) {
@@ -36,6 +38,7 @@ public class Address {
 
     /**
      * 获取
+     *
      * @return city
      */
     public String getCity() {
@@ -44,6 +47,7 @@ public class Address {
 
     /**
      * 设置
+     *
      * @param city
      */
     public void setCity(String city) {

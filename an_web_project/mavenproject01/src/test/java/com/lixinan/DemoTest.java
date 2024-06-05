@@ -10,17 +10,17 @@ import org.junit.Test;
  */
 public class DemoTest {
     @Test
-    public void test1(){
+    public void test1() {
         System.out.println("Hello test1");
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         System.out.println("Hello test2");
     }
 
     @Test
-    public void test3(){
+    public void test3() {
         System.out.println("Hello test3");
     }
 }

@@ -20,7 +20,7 @@ public class ResponseController {
 
     //响应统一格式的结果
     @RequestMapping("/hello")
-    public Result hello(){
+    public Result hello() {
         System.out.println("Hello World ~");
         //return new Result(1,"success","Hello World ~");
         return Result.success("Hello World ~");
@@ -28,7 +28,7 @@ public class ResponseController {
 
     //响应统一格式的结果
     @RequestMapping("/getAddr")
-    public Result getAddr(){
+    public Result getAddr() {
         Address addr = new Address();
         addr.setProvince("广东");
         addr.setCity("深圳");
@@ -37,7 +37,7 @@ public class ResponseController {
 
     //响应统一格式的结果
     @RequestMapping("/listAddr")
-    public Result listAddr(){
+    public Result listAddr() {
         List<Address> list = new ArrayList<>();
 
         Address addr = new Address();

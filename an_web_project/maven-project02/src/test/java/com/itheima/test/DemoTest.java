@@ -8,7 +8,7 @@ public class DemoTest {
     private static Logger log = LoggerFactory.getLogger(DemoTest.class);
 
     @Test
-    public void test1(){
+    public void test1() {
         log.info("test1 ... running ...");
     }
 

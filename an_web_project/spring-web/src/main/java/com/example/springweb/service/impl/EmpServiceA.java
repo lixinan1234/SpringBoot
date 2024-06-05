@@ -19,7 +19,6 @@ import java.util.List;
  */
 
 
-
 @Primary//如果都有@Service，则可以加上@Primary，这样会优先调用此类
 //@Component//将当前类交给IOC管理容器，成为IOC容器中的bean
 @Service//@Component衍生出来的，作用一样
@@ -37,26 +36,24 @@ public class EmpServiceA implements EmpService {
         empList.stream().forEach(emp -> {
             //处理 gender 1: 男, 2: 女
             String gender = emp.getGender();
-            if("1".equals(gender)){
+            if ("1".equals(gender)) {
                 emp.setGender("男");
-            }else if("2".equals(gender)){
+            } else if ("2".equals(gender)) {
                 emp.setGender("女");
             }
             //处理job - 1: 讲师, 2: 班主任 , 3: 就业指导
             String job = emp.getJob();
-            if(job.equals("1")){
+            if (job.equals("1")) {
                 emp.setJob("讲师");
-            }else if(job.equals("2")){
+            } else if (job.equals("2")) {
                 emp.setJob("班主任");
-            }else if(job.equals("3")){
+            } else if (job.equals("3")) {
                 emp.setJob("就业指导");
             }
         });
 
         return empList;
     }
-
-
 
 
 }

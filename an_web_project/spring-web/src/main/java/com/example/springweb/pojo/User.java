@@ -23,6 +23,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return name
      */
     public String getName() {
@@ -31,6 +32,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param name
      */
     public void setName(String name) {
@@ -39,6 +41,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return age
      */
     public int getAge() {
@@ -47,6 +50,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param age
      */
     public void setAge(int age) {
@@ -55,6 +59,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return address
      */
     public Address getAddress() {
@@ -63,6 +68,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param address
      */
     public void setAddress(Address address) {

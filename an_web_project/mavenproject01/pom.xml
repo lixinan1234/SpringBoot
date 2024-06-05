@@ -20,12 +20,12 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
-           <!--
-           依赖范围：compile是默认（主程序能使用）（测试程序能使用）（打包能使用）
-                     test（主程序不能使用）（测试程序能使用）（打包不能使用）
-                     provided（主程序能使用）（测试程序能使用）（打包不能使用）
-                     runtime（主程序能使用）（测试程序能使用）（打包能使用）
-                     -->
+            <!--
+            依赖范围：compile是默认（主程序能使用）（测试程序能使用）（打包能使用）
+                      test（主程序不能使用）（测试程序能使用）（打包不能使用）
+                      provided（主程序能使用）（测试程序能使用）（打包不能使用）
+                      runtime（主程序能使用）（测试程序能使用）（打包能使用）
+                      -->
             <!--<scope>compile</scope>-->
         </dependency>
 
@@ -38,7 +38,6 @@
         </dependency>
 
     </dependencies>
-
 
 
 </project>

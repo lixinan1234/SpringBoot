@@ -28,6 +28,7 @@ public class EmpController {
     /*@Resource(name = "empServiceB")*/
 
     private EmpService empService;
+
     @RequestMapping("/listEmp")
     public Result list() {
         //1.调用Service，获取数据
