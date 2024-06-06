@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ad41532-a760-468c-ab61-630b25951da1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_test_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/SpringbootMybatisCrudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven-project02/src/test/java/com/itheima/test/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../maven-project02/src/test/java/com/itheima/test/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavenproject01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenproject01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavenproject01/src/test/java/com/lixinan/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenproject01/src/test/java/com/lixinan/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavenproject01/target/surefire-reports/TEST-com.lixinan.DemoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenproject01/target/surefire-reports/TEST-com.lixinan.DemoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/SpringWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/SpringWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/controller/EmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/controller/RequestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/controller/ResponseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/controller/ResponseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/pojo/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/pojo/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServiceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServiceA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServiceB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServiceB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServiceD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServiceD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServicec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/service/impl/EmpServicec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springweb/utils/XmlParserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springweb/utils/XmlParserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/emp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/emp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="198">
               <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,17 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="264">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="324">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +83,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="308">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="420">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -156,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="352">
               <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
@@ -205,10 +175,11 @@
         <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../springboot-mybatis-crud/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" />
-        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" />
         <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/SpringbootMybatisCrudApplication.java" />
+        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" />
+        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" />
+        <option value="$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -251,8 +222,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1282" />
-    <option name="width" value="887" />
+    <option name="x" value="1281" />
+    <option name="width" value="888" />
     <option name="height" value="1377" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -261,60 +232,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-web" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-mybatis-crud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -351,6 +274,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-mybatis-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-web" type="b2602c69:ProjectViewProjectNode" />
@@ -414,7 +347,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootMybatisApplicationTests.testListUser">
+  <component name="RunManager" selected="JUnit.SpringbootMybatisCrudApplicationTests.testDelete">
     <configuration name="SpringbootMybatisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-mybatis" />
       <extension name="coverage">
@@ -493,6 +425,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootMybatisCrudApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis-crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbootmybatiscrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springbootmybatiscrud" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springbootmybatiscrud.SpringbootMybatisCrudApplicationTests" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springweb.SpringWebApplication" />
@@ -516,6 +464,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringbootMybatisCrudApplicationTests.testDelete" />
         <item itemvalue="JUnit.SpringbootMybatisApplicationTests.testListUser" />
         <item itemvalue="JUnit.SpringbootMybatisApplicationTests" />
       </list>
@@ -547,6 +496,7 @@
       <workItem from="1717553130241" duration="3035000" />
       <workItem from="1717556593339" duration="5421000" />
       <workItem from="1717567683410" duration="7867000" />
+      <workItem from="1717678285278" duration="3305000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot(分层解藕)">
       <created>1716990574440</created>
@@ -580,18 +530,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringbootMybatisApplicationTests_testListUser - 2024.06.05 at 11h 24m 06s.xml">
-      <configuration name="SpringbootMybatisApplicationTests.testListUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringbootMybatisApplicationTests_testListUser - 2024.06.05 at 11h 24m 49s.xml">
-      <configuration name="SpringbootMybatisApplicationTests.testListUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringbootMybatisApplicationTests_testListUser - 2024.06.05 at 11h 25m 48s.xml">
-      <configuration name="SpringbootMybatisApplicationTests.testListUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringbootMybatisApplicationTests_testListUser - 2024.06.05 at 11h 27m 59s.xml">
-      <configuration name="SpringbootMybatisApplicationTests.testListUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpringbootMybatisApplicationTests_testListUser - 2024.06.05 at 11h 52m 59s.xml">
       <configuration name="SpringbootMybatisApplicationTests.testListUser" configurationId="JUnit" />
     </history-entry>
@@ -610,15 +548,26 @@
     <history-entry file="SpringbootMybatisApplicationTests_testListUser - 2024.06.05 at 15h 06m 24s.xml">
       <configuration name="SpringbootMybatisApplicationTests.testListUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringbootMybatisCrudApplicationTests_testDelete - 2024.06.06 at 21h 12m 11s.xml">
+      <configuration name="SpringbootMybatisCrudApplicationTests.testDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootMybatisCrudApplicationTests_testDelete - 2024.06.06 at 21h 15m 29s.xml">
+      <configuration name="SpringbootMybatisCrudApplicationTests.testDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootMybatisCrudApplicationTests_testDelete - 2024.06.06 at 21h 15m 55s.xml">
+      <configuration name="SpringbootMybatisCrudApplicationTests.testDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootMybatisCrudApplicationTests_testDelete - 2024.06.06 at 21h 32m 10s.xml">
+      <configuration name="SpringbootMybatisCrudApplicationTests.testDelete" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50288000" />
+    <option name="totallyTimeSpent" value="53593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="927" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2884753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29277024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -900,58 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/SpringbootMybatisCrudApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -963,6 +860,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/SpringbootMybatisCrudApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -970,12 +898,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="324">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
           </folding>
         </state>
       </provider>
