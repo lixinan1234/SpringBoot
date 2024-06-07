@@ -14,7 +14,12 @@ class SpringbootMybatisCrudApplicationTests {
 
     @Test
     public void testDelete(){
-        empMapper.delete(16);
+        int delete = empMapper.delete(16);
+        if(delete == 1){
+            System.out.println("删除成功！");
+        }else{
+            System.out.println("删除失败！");
+        }
     }
 
 }
