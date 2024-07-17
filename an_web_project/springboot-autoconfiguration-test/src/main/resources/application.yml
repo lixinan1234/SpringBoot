@@ -1,0 +1,6 @@
+aliyun:
+  oss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+    accessKeyId: LTAI5tApv2gzXHRa1C3mVmAY
+    accessKeySecret: cdEg0hpKE8K6ADuaHtSY3QLfiaGzrR
+    bucketName: web-taliasssss

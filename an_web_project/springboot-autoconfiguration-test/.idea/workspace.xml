@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7f17ed3-3fe7-416f-8673-68bea5829f42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_17_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_google_code_gson_gson_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_jdom_jdom2_2_0_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_test_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_test_autoconfigure_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/com/example/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/springbootWeb-anli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/anno/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/aop/TimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/controller/EmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/filter/AbcFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/filter/DemoFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/interceptor/LoginCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/mapper/DeptLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/mapper/OperateLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/pojo/DeptLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/pojo/OperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/service/DeptLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/service/impl/DeptLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/AliOSSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/AliOSSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/resources/com/anli/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/main/resources/static/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/test/java/com/anli/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/src/main/java/com/example/springweb/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/src/main/java/com/example/springweb/controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/SpringWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/SpringWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/controller/EmpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/pojo/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/pojo/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/pojo/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/service/impl/EmpServiceA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/service/impl/EmpServiceA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/service/impl/EmpServiceB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/service/impl/EmpServiceB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/utils/XmlParserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/com/example/springweb/utils/XmlParserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-web/target/classes/static/emp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-web/target/classes/static/emp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/mapper/EmpMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/java/com/example/pojo/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-crud/src/test/java/com/example/springbootmybatiscrud/SpringbootMybatisCrudApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/controller/UploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/SpringbootAutoconfigurationTestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-autoconfiguration-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-autoconfiguration-test.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2184" />
+    <option name="height" value="1392" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-autoconfiguration-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-autoconfiguration-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAutoconfigurationTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-autoconfiguration-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.SpringbootAutoconfigurationTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7f17ed3-3fe7-416f-8673-68bea5829f42" name="Default Changelist" comment="" />
+      <created>1720880780949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720880780949</updated>
+      <workItem from="1720881813667" duration="514000" />
+      <workItem from="1720882660860" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="625000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="927" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2920544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3070761" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32977304" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32977304" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32856122" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32856122" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springboot-autoconfiguration-test.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/SpringbootAutoconfigurationTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
