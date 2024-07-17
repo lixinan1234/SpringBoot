@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-starter.iml" filepath="$PROJECT_DIR$/../aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/../an_web_project.iml" filepath="$PROJECT_DIR$/../an_web_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/demo.iml" filepath="$PROJECT_DIR$/springboot-mybatis/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web.iml" filepath="$PROJECT_DIR$/spring-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot-autoconfiguration-test/springboot-autoconfiguration-test.iml" filepath="$PROJECT_DIR$/../springboot-autoconfiguration-test/springboot-autoconfiguration-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" filepath="$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springbootWeb-anli/springbootWeb-anli.iml" filepath="$PROJECT_DIR$/../springbootWeb-anli/springbootWeb-anli.iml" />
     </modules>
   </component>
 </project>

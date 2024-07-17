@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.EmpMapper">
+
+    <sql id="commonSelect">
+        select id,username,password,name,gender,image,job,entrydate,dept_id,create_time,update_time
+        from emp
+    </sql>
+
+
+
+    <update id="update2">
+        <!--动态更新员工操作-->
+        update emp
+        <set>
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="gender != null">
+                gender = #{gender},
+            </if>
+            <if test="image != null">
+                image = #{image},
+            </if>
+            <if test="job != null">
+                job = #{job},
+            </if>
+            <if test="job != null">
+                entrydate = #{entrydate},
+            </if>
+            <if test="deptId != null">
+                dept_id = #{deptId},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="list" resultType="com.example.pojo.Emp">
+        <!--动态查询员工操作-->
+        <include refid="commonSelect"></include>
+        <where>
+            <if test="name != null">
+                name like concat('%',#{name},'%')
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+            <if test="begin != null and end != null">
+                and entrydate BETWEEN #{begin} and #{end}
+            </if>
+        </where>
+        ORDER BY update_time desc
+    </select>
+
+    <!--动态批量删除员工 (18,19,20)
+    <foreach collection="集合名称" item="集合遍历出来的元素/项" separator="每一次遍历使用的分隔符"
+         open="遍历开始前拼接的片段" close="遍历结束后拼接的片段">
+    </foreach>
+    -->
+    <delete id="deleteByIds">
+        delete from emp where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

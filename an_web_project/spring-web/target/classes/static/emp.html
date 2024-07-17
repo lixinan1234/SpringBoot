@@ -48,14 +48,11 @@
             }
         },
         mounted() {
-            axios.get('/listEmp').then(res = > {
-                if(res.data.code
-        )
-            {
-                this.tableData = res.data.data;
-            }
-        })
-            ;
+            axios.get('/listEmp').then(res => {
+                if (res.data.code) {
+                    this.tableData = res.data.data;
+                }
+            });
         },
         methods: {}
     });

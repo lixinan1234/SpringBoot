@@ -1,5 +1,6 @@
 package com.example.springweb.controller;
 
+import com.example.springweb.pojo.Result;
 import com.example.springweb.pojo.User;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
