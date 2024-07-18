@@ -2,467 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ad41532-a760-468c-ab61-630b25951da1" name="Default Changelist" comment="springboot案例+登入验证+AOP进阶+SpringBoot原理">
-      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-starter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aliyun-oss-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/springboot-aop-quickstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/springboot-aop-quickstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/SpringbootAopQuickstartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/aop/MyAspect1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/aop/MyAspect2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/aop/MyLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/aop/TimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/pojo/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/pojo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/java/com/itheima/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/src/test/java/com/itheima/SpringbootAopQuickstart1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/SpringbootAopQuickstartApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/aop/MyAspect1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/aop/MyAspect2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/aop/MyLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/aop/TimeAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/controller/DeptController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/mapper/DeptMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/pojo/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/pojo/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/classes/com/itheima/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-aop-quickstart/target/test-classes/com/itheima/SpringbootAopQuickstart1ApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/src/main/java/com/itheima/SpringbootAutoconfigurationTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/src/main/java/com/itheima/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-autoconfiguration-test/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootWeb-anli/src/test/java/com/anli/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/constant/AutoFillConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/constant/JwtClaimsConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/constant/MessageConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/constant/PasswordConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/constant/StatusConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/context/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/enumeration/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/AccountLockedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/AddressBookBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/DeletionNotAllowedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/LoginFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/OrderBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/PasswordEditFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/PasswordErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/SetmealEnableFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/ShoppingCartBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/exception/UserNotLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/json/JacksonObjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/properties/AliOssProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/properties/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/properties/WeChatProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/result/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/utils/AliOssUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-common/src/main/java/com/sky/utils/WeChatPayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/CategoryPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/DataOverViewQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/DishDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/DishPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/EmployeeLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/EmployeePageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/GoodsSalesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersCancelDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersConfirmDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersPaymentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersRejectionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/OrdersSubmitDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/PasswordEditDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/SetmealDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/SetmealPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/ShoppingCartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/dto/UserLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/DishFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Setmeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/SetmealDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/BusinessDataVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/DishItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/DishOverViewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/DishVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/EmployeeLoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/OrderOverViewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/OrderPaymentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/OrderReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/OrderStatisticsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/OrderSubmitVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/OrderVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/SalesTop10ReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/SetmealOverViewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/SetmealVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/TurnoverReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/UserLoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-pojo/src/main/java/com/sky/vo/UserReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/SkyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/interceptor/JwtTokenAdminInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../sky-take-out/sky-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_17_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_google_code_gson_gson_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_jdom_jdom2_2_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_test_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_test_autoconfigure_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/springbootWeb-anli.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/anno/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/aop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/aop/TimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/EmpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/filter/AbcFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/filter/DemoFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/interceptor/LoginCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/DeptLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/OperateLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/DeptLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/EmpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/impl/DeptLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/impl/EmpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/resources/com/anli/mapper/EmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/main/resources/static/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/test/java/com/anli/demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/src/test/java/com/anli/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/META-INF/demo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/META-INF/springbootWeb-anli.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/DemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/anno/Log.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/aop/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/aop/TimeAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/DeptController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/EmpController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/UploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/filter/AbcFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/filter/DemoFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/filter/LoginCheckFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/interceptor/LoginCheckInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/DeptLogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/DeptMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/EmpMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/OperateLogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/DeptLogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/EmpService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/impl/DeptLogServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/impl/EmpServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/surefire-reports/2024-07-12T14-10-39_232-jvmRun1.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/surefire-reports/TEST-com.anli.demo.DemoApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/surefire-reports/com.anli.demo.DemoApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/test-classes/com/anli/demo/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/springbootWeb-anli/target/test-classes/com/anli/demo/DemoApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-parent/tlias-parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/DeptLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/OperateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/DeptLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/Emp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/OperateLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/PageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/target/tlias-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tlias-pojo/tlias-pojo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasparent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/src/main/java/com/anli/utils/AliOSSProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/src/main/java/com/anli/utils/AliOSSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/src/main/java/com/anli/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/target/classes/com/anli/utils/AliOSSProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/target/classes/com/anli/utils/AliOSSUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/target/classes/com/anli/utils/JwtUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../备份的案例项目/tliasutils/tliasutils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -575,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/AliOSSUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
+            <state relative-caret-position="792">
               <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
             </state>
           </provider>
@@ -592,7 +131,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -726,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -792,7 +336,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1082,7 +625,8 @@
       <workItem from="1720925410643" duration="57000" />
       <workItem from="1720938420580" duration="91000" />
       <workItem from="1721133287658" duration="676000" />
-      <workItem from="1721180034115" duration="1466000" />
+      <workItem from="1721180034115" duration="2571000" />
+      <workItem from="1721195447280" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot(分层解藕)">
       <created>1716990574440</created>
@@ -1183,12 +727,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214374000" />
+    <option name="totallyTimeSpent" value="216465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="928" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49937108" visible="true" weight="0.28183118" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49937108" visible="true" weight="0.28612304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1205,7 +750,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32914573" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32955974" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32955974" />
@@ -1592,44 +1137,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSProperties.java">
+    <entry file="file://$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/AliOSSProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springbootWeb-anli/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-autoconfiguration-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1654,19 +1167,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/AliOSSProperties.java">
+    <entry file="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springbootWeb-anli/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springbootWeb-anli/src/main/java/com/anli/utils/AliOSSUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
+        <state relative-caret-position="792">
           <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
         </state>
       </provider>
@@ -1678,8 +1202,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-autoconfiguration-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigure/src/main/java/com/aliyun/oss/AliOSSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-mybatis-crud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
