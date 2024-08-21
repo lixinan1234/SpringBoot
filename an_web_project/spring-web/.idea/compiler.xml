@@ -8,14 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
-        <module name="aliyun-oss-spring-boot-autoconfigure" />
-        <module name="springboot-mybatis" />
         <module name="springboot-autoconfiguration-test" />
+        <module name="aliyun-oss-spring-boot-autoconfigure" />
         <module name="spring-web" />
+        <module name="springbootWeb-anli" />
+        <module name="springcache-demo" />
         <module name="springboot-mybatis-crud" />
         <module name="an_web_project" />
         <module name="aliyun-oss-spring-boot-starter" />
-        <module name="springbootWeb-anli" />
+        <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="springboot-mybatis" target="17" />
       <module name="springboot-mybatis-crud" target="17" />
       <module name="springbootWeb-anli" target="17" />
+      <module name="springcache-demo" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,6 +42,7 @@
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-mybatis-crud" options="-parameters" />
       <module name="springbootWeb-anli" options="-parameters" />
+      <module name="springcache-demo" options="-parameters" />
     </option>
   </component>
 </project>

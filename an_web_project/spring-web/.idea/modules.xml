@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" filepath="$PROJECT_DIR$/../springboot-mybatis-crud/springboot-mybatis-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springbootWeb-anli/springbootWeb-anli.iml" filepath="$PROJECT_DIR$/../springbootWeb-anli/springbootWeb-anli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcache-demo/springcache-demo.iml" filepath="$PROJECT_DIR$/../springcache-demo/springcache-demo.iml" />
     </modules>
   </component>
 </project>
