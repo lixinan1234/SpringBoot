@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b51b150a-d634-4191-b8d6-98d3c5c2acb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp/.idea/jsp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-common/src/main/java/com/sky/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-common/src/main/java/com/sky/constant/MessageConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-pojo/src/main/java/com/sky/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-pojo/src/main/java/com/sky/dto/CategoryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-pojo/src/main/java/com/sky/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/SkyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/SkyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/interceptor/JwtTokenAdminInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/interceptor/JwtTokenAdminInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out/sky-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_17_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_google_code_gson_gson_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_jdom_jdom2_2_0_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_test_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_test_autoconfigure_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/springbootWeb-anli.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/anno/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/aop/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/aop/TimeAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/EmpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/filter/AbcFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/filter/DemoFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/filter/LoginCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/interceptor/LoginCheckInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/DeptLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/mapper/OperateLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/DeptLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/EmpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/impl/DeptLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/java/com/anli/service/impl/EmpServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/resources/com/anli/mapper/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/main/resources/static/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/test/java/com/anli/demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/src/test/java/com/anli/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/META-INF/demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/META-INF/springbootWeb-anli.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/anno/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/aop/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/aop/TimeAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/EmpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/filter/AbcFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/filter/DemoFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/filter/LoginCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/interceptor/LoginCheckInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/DeptLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/mapper/OperateLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/DeptLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/DeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/EmpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/impl/DeptLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/impl/DeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/classes/com/anli/service/impl/EmpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/surefire-reports/2024-07-12T14-10-39_232-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/surefire-reports/TEST-com.anli.demo.DemoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/surefire-reports/com.anli.demo.DemoApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/test-classes/com/anli/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/springbootWeb-anli/target/test-classes/com/anli/demo/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-parent/tlias-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/DeptLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/OperateLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/src/main/java/com.anli/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/DeptLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/OperateLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/PageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/classes/com/anli/pojo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/target/tlias-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tlias-pojo/tlias-pojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasparent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/src/main/java/com/anli/utils/AliOSSProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/src/main/java/com/anli/utils/AliOSSUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/src/main/java/com/anli/utils/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/target/classes/com/anli/utils/AliOSSProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/target/classes/com/anli/utils/AliOSSUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/target/classes/com/anli/utils/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备份的案例项目/tliasutils/tliasutils.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1034">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mp/MpDemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mp/mapper/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mp-demo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/MpDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/domain/po/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/mp/MpDemoApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/mp/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itheima/mp/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/mp/domain/po/User.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-test:2.7.12" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/mp-demo.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_spring_boot_autoconfigure_3_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_27.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1290" />
+    <option name="height" value="1377" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="mp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="mp" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="mp" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="mp" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="mp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="mp" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UserMapperTest.testDeleteUser">
+    <configuration name="UserMapperTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mp.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mp.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mp.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mp.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mp.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mp.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testQueryByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mp.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mp.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mp.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testQueryByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mp.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mp.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mp.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mp.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mp.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mp.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testUpdateById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MpDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mp-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.mp.MpDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.testDeleteUser" />
+        <item itemvalue="JUnit.UserMapperTest.testUpdateById" />
+        <item itemvalue="JUnit.UserMapperTest.testQueryByIds" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectById" />
+        <item itemvalue="JUnit.UserMapperTest.testInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b51b150a-d634-4191-b8d6-98d3c5c2acb2" name="Default Changelist" comment="" />
+      <created>1725890053232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725890053232</updated>
+      <workItem from="1725890056575" duration="10294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserMapperTest_testSelectById - 2024.09.10 at 08h 48m 51s.xml">
+      <configuration name="UserMapperTest.testSelectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testSelectById - 2024.09.10 at 08h 49m 17s.xml">
+      <configuration name="UserMapperTest.testSelectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testSelectById - 2024.09.10 at 08h 49m 43s.xml">
+      <configuration name="UserMapperTest.testSelectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testSelectById - 2024.09.10 at 08h 50m 34s.xml">
+      <configuration name="UserMapperTest.testSelectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testInsert - 2024.09.10 at 09h 42m 30s.xml">
+      <configuration name="UserMapperTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testSelectById - 2024.09.10 at 09h 43m 05s.xml">
+      <configuration name="UserMapperTest.testSelectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testQueryByIds - 2024.09.10 at 09h 43m 29s.xml">
+      <configuration name="UserMapperTest.testQueryByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testUpdateById - 2024.09.10 at 09h 43m 42s.xml">
+      <configuration name="UserMapperTest.testUpdateById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testDeleteUser - 2024.09.10 at 09h 44m 06s.xml">
+      <configuration name="UserMapperTest.testDeleteUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10294000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="927" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29277024" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30691823" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32977304" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32977304" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32955974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32856122" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32999283" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mp-demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/MpDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mp/MpDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mp/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/domain/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mp-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

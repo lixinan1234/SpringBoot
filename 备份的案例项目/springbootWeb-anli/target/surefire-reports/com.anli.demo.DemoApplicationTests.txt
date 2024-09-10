@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.anli.demo.DemoApplicationTests
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.359 s <<< FAILURE! - in com.anli.demo.DemoApplicationTests
-parseJwt  Time elapsed: 1.555 s  <<< ERROR!
-io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-07-10T14:42:21Z. Current time: 2024-07-12T14:10:53Z, a difference of 170912205 milliseconds.  Allowed clock skew: 0 milliseconds.
-	at com.anli.demo.DemoApplicationTests.parseJwt(DemoApplicationTests.java:38)
-
