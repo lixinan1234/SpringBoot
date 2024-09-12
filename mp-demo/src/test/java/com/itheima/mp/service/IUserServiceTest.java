@@ -1,5 +1,7 @@
 package com.itheima.mp.service;
 
+import com.baomidou.mybatisplus.core.metadata.OrderItem;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.itheima.mp.domain.po.User;
 import com.itheima.mp.domain.po.UserInfo;
 import org.junit.jupiter.api.Test;
@@ -68,5 +70,27 @@ class IUserServiceTest {
         user.setCreateTime(LocalDateTime.now());
         user.setUpdateTime(user.getCreateTime());
         return user;
+    }
+
+    @Test
+    void testPageQuery(){
+        int pageNo = 1, pageSize=2;
+
+        //1.准备分类条件
+        Page<User> page = Page.of(pageNo, pageSize);
+        //1.2.排序条件
+        page.addOrder(new OrderItem().setColumn("balance").setAsc(true));
+        page.addOrder(new OrderItem().setColumn("id").setAsc(true));
+        //2.分页查询
+        Page<User> p = userService.page(page);
+
+        //3.解析
+        long total = p.getTotal();
+        System.out.println("total = " + total);
+        long pages = p.getPages();
+        System.out.println("pages" + pages);
+        List<User> users = p.getRecords();
+        users.forEach(System.out::println);
+
     }
 }
