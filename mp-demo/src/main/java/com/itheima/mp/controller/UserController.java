@@ -3,6 +3,7 @@ package com.itheima.mp.controller;
 import cn.hutool.core.bean.BeanUtil;
 import com.itheima.mp.domain.dto.UserFormDTO;
 import com.itheima.mp.domain.po.User;
+import com.itheima.mp.domain.query.UserQuery;
 import com.itheima.mp.domain.vo.UserVO;
 import com.itheima.mp.service.IUserService;
 import io.swagger.annotations.Api;
@@ -48,28 +49,33 @@ public class UserController {
     @ApiOperation("跟据id查询用户接口")
     @GetMapping("/{id}")
     public UserVO queryUserById(@ApiParam("用户id") @PathVariable("id") Long id){
-        //1.查询用户PO
-        User user = iUserService.getById(id);
-        //2.把PO拷贝VO
-        return BeanUtil.copyProperties(user,UserVO.class);
+
+        return iUserService.queryUserAndAddressById(id);
     }
 
 
     @ApiOperation("跟据id批量查询用户接口")
     @GetMapping()
-    public List<UserVO> queryUserByIds(@ApiParam("用户id") @RequestParam("id") List<Long> ids){
-        //1.查询用户PO
-        List<User> users = iUserService.listByIds(ids);
-        //2.把PO拷贝VO
-        return BeanUtil.copyToList(users,UserVO.class);
+    public List<UserVO> queryUserByIds(@ApiParam("用户id") @RequestParam("ids") List<Long> ids){
+        return iUserService.queryUserAndAddressByIds(ids);
     }
 
     @ApiOperation("扣减用户余额接口")
     @PutMapping("/{id}/deduction/{money}")
     public void deductionMoneyById(
             @ApiParam("用户id") @PathVariable("id") Long id,
-            @PathVariable("扣减的金额") Integer money){
+            @PathVariable("money") Integer money){
         iUserService.deductBalance(id,money);
+    }
+
+    @ApiOperation("跟据复杂条件查询用户接口")
+    @GetMapping("/list")
+    public List<UserVO> queryUsers(UserQuery query){
+        //1.查询用户PO
+         List<User> users =  iUserService.queryUsers(
+                query.getName(),query.getStatus(),query.getMinBalance(),query.getMaxBalance());
+         //2.把PO拷到VO
+        return BeanUtil.copyToList(users,UserVO.class);
     }
 
 
