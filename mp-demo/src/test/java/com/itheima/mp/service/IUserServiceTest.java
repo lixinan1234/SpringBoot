@@ -77,15 +77,15 @@ class IUserServiceTest {
         int pageNo = 1, pageSize=2;
 
         //1.准备分类条件
-        Page<User> page = Page.of(pageNo, pageSize);
+        Page<User> page = Page.of(pageNo, pageSize);//设置页码和页数
         //1.2.排序条件
-        page.addOrder(new OrderItem().setColumn("balance").setAsc(true));
+        page.addOrder(new OrderItem().setColumn("balance").setAsc(true));//设置balance的降序排序
         page.addOrder(new OrderItem().setColumn("id").setAsc(true));
         //2.分页查询
         Page<User> p = userService.page(page);
 
         //3.解析
-        long total = p.getTotal();
+        long total = p.getTotal();//一共有几条数据
         System.out.println("total = " + total);
         long pages = p.getPages();
         System.out.println("pages" + pages);

@@ -2,12 +2,18 @@ package com.itheima.mp.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.core.metadata.OrderItem;
+import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.baomidou.mybatisplus.extension.toolkit.Db;
+import com.itheima.mp.domain.dto.PageDTO;
 import com.itheima.mp.domain.po.Address;
 import com.itheima.mp.domain.po.User;
+import com.itheima.mp.domain.query.UserQuery;
 import com.itheima.mp.domain.vo.AddressVO;
 import com.itheima.mp.domain.vo.UserVO;
 import com.itheima.mp.enums.UserStatus;
@@ -19,6 +25,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 /**
  * @author:lixinan
@@ -122,5 +129,31 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
             vo.setAddresses(addressMap.get(user.getId()));
         }
         return list;
+    }
+
+    //跟据条件分页查询用户
+    @Override
+    public PageDTO<UserVO> queryUsersPage(UserQuery query) {
+        String name = query.getName();
+        Integer status = query.getStatus();
+
+        //1.构建查询条件
+        Page<User> page = query.toMpPageDefaultSortByCreateTime();
+
+        //2.分页查询
+        Page<User> p =  lambdaQuery()
+                // 条件成立，就对name做模糊查询
+                .like(name != null,User::getUsername,name)//list模糊
+                .eq(status != null,User::getStatus,status)//eq比较
+                .page(page);
+        //3.封装VO结果
+        return PageDTO.of(p,user -> {
+            //1.拷贝基础属性
+            UserVO vo = BeanUtil.copyProperties(user, UserVO.class);
+            //2.处理特殊逻辑
+            vo.setUsername(vo.getUsername().substring(0,vo.getUsername().length()-2) + "**");
+
+            return vo;
+        });
     }
 }
