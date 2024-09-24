@@ -2,6 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51b150a-d634-4191-b8d6-98d3c5c2acb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/cart-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/dto/CartFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/po/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/vo/CartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/mapper/CartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/test/java/com/hmall/cart/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/ItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/po/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/query/ItemPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/service/IItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/test/java/com/hmall/item/ItemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/hm-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/hm-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/target/classes/com/hmall/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/target/classes/com/hmall/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hmall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hmall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/hm-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/hm-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -61,14 +110,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+            <state relative-caret-position="2288">
+              <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -189,8 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -446,10 +520,16 @@
               <item name="mp" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -662,6 +742,8 @@
       <workItem from="1726191328846" duration="9180000" />
       <workItem from="1726657202465" duration="1187000" />
       <workItem from="1726715548224" duration="62000" />
+      <workItem from="1727073858028" duration="90000" />
+      <workItem from="1727106460209" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="学习MybatisPlus">
       <created>1725980152327</created>
@@ -713,7 +795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94755000" />
+    <option name="totallyTimeSpent" value="94924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,6 +808,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="927" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50062895" side_tool="true" weight="0.21832499" />
       <window_info id="Image Layers" order="1" />
@@ -733,7 +816,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49937108" visible="true" weight="0.27487472" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49937108" visible="true" weight="0.28346458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.76603776" />
@@ -813,9 +896,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mp-demo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://fdf5c149-f9d6-4da7-9956-ab67d061d0db/schema/mp/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -840,13 +920,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/com/itheima/mp/domain/Address.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/com/itheima/mp/service/AddressService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/com/itheima/mp/service/impl/AddressServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/itheima/mp/service/AddressService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -921,13 +994,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1109,11 +1175,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+        <state relative-caret-position="2288">
+          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1144,6 +1224,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
     </entry>
