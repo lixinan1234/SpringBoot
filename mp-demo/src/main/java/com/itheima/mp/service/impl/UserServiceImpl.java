@@ -143,7 +143,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         //2.分页查询
         Page<User> p =  lambdaQuery()
                 // 条件成立，就对name做模糊查询
-                .like(name != null,User::getUsername,name)//list模糊
+                .like(name != null,User::getUsername,name)//like模糊
                 .eq(status != null,User::getStatus,status)//eq比较
                 .page(page);
         //3.封装VO结果

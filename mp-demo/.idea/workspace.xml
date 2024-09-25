@@ -2,56 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51b150a-d634-4191-b8d6-98d3c5c2acb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/cart-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/CartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/dto/CartFormDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/po/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/domain/vo/CartVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/mapper/CartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/service/ICartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/cart-service/src/test/java/com/hmall/cart/CartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/ItemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/dto/OrderDetailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/po/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/domain/query/ItemPageQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/service/IItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hmall/item-service/src/test/java/com/hmall/item/ItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_guava_guava_24_1_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_prometheus_simpleclient_0_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_prometheus_simpleclient_tracer_common_0_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_prometheus_simpleclient_tracer_otel_0_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_prometheus_simpleclient_tracer_otel_agent_0_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hmall/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi2_spring_boot_starter_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi2_spring_boot_starter_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi2_ui_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_github_xiaoymin_knife4j_openapi2_ui_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_14_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_14_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_github_classgraph_classgraph_4_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_github_classgraph_classgraph_4_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_buffer_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_buffer_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_codec_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_codec_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_common_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_common_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_handler_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_handler_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_resolver_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_resolver_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_transport_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_transport_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_92_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_92_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_core_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_core_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_schema_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_schema_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_spi_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_spi_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_10_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_swagger_swagger_models_1_6_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__io_swagger_swagger_models_1_6_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_73.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_73.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_checkerframework_checker_qual_3_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_checkerframework_checker_qual_3_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_7_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_7_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_aop_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_aop_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_beans_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_beans_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_context_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_context_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_core_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_core_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_expression_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_expression_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_test_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_test_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_tx_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_tx_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_web_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_web_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hmall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/hm-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/hm-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmall/hm-service/target/classes/com/hmall/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-service/target/classes/com/hmall/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/cart-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/cart-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/CartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/CartApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/dto/CartFormDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/dto/CartFormDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/dto/ItemDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/po/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/po/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/vo/CartVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/domain/vo/CartVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/mapper/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/mapper/CartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/service/ICartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/service/ICartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/service/impl/CartServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/cart-service/target/classes/com/hmall/cart/service/impl/CartServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hmall/hmall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hmall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/item-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/ItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/java/com/hmall/item/ItemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/ItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/ItemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/dto/ItemDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/dto/OrderDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/dto/OrderDetailDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/po/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/po/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/query/ItemPageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/domain/query/ItemPageQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/mapper/ItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/service/IItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/service/IItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/item-service/target/test-classes/com/hmall/item/ItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/item-service/target/test-classes/com/hmall/item/ItemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/cart-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hmall/logs/hm-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/hm-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,11 +281,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2288">
-              <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+            <state relative-caret-position="376">
+              <caret line="146" column="64" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,11 +302,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="1474">
               <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/AddressServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,6 +448,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,15 +704,10 @@
               <item name="mp" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mp-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -744,6 +923,8 @@
       <workItem from="1726715548224" duration="62000" />
       <workItem from="1727073858028" duration="90000" />
       <workItem from="1727106460209" duration="79000" />
+      <workItem from="1727141430607" duration="275000" />
+      <workItem from="1727177041267" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="学习MybatisPlus">
       <created>1725980152327</created>
@@ -795,7 +976,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94924000" />
+    <option name="totallyTimeSpent" value="95222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -816,7 +997,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49937108" visible="true" weight="0.28346458" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49937108" visible="true" weight="0.2920544" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.76603776" />
@@ -1101,16 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/AddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
@@ -1175,8 +1346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+        <state relative-caret-position="376">
+          <caret line="146" column="64" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1187,6 +1358,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mp/service/impl/AddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,13 +1412,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
     </entry>

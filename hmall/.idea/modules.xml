@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cart-service/cart-service.iml" filepath="$PROJECT_DIR$/cart-service/cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hm-api/hm-api.iml" filepath="$PROJECT_DIR$/hm-api/hm-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hm-common/hm-common.iml" filepath="$PROJECT_DIR$/hm-common/hm-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hm-service/hm-service.iml" filepath="$PROJECT_DIR$/hm-service/hm-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hmall.iml" filepath="$PROJECT_DIR$/hmall.iml" />
