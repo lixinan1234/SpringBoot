@@ -1,631 +1,80 @@
-11:30:18:625  INFO 1528 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 1528 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-11:30:18:633 DEBUG 1528 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-11:30:18:634  INFO 1528 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-11:30:20:187  INFO 1528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-11:30:20:191  INFO 1528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-11:30:20:247  INFO 1528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
-11:30:20:609  INFO 1528 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-11:30:21:427  INFO 1528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-11:30:21:444  INFO 1528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-11:30:21:445  INFO 1528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-11:30:21:648  INFO 1528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-11:30:21:648  INFO 1528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2910 ms
-11:30:22:403  INFO 18592 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 18592 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-11:30:22:406 DEBUG 18592 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-11:30:22:406  INFO 18592 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-11:30:23:899  INFO 18592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-11:30:23:902  INFO 18592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-11:30:23:949  INFO 18592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
-11:30:24:341  INFO 18592 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-11:30:24:954  INFO 18592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-11:30:24:972  INFO 18592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-11:30:24:973  INFO 18592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-11:30:25:198  INFO 18592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-11:30:25:199  INFO 18592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2728 ms
-11:30:26:586  INFO 1528 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-11:30:28:661  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of a10aa9a9-144b-4c96-92c8-cb44d65725f4
-11:30:28:758  INFO 1528 --- [main] org.reflections.Reflections              : Reflections took 47 ms to scan 1 urls, producing 3 keys and 6 values 
-11:30:28:823  INFO 1528 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 4 keys and 9 values 
-11:30:28:844  INFO 1528 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
-11:30:28:849  WARN 1528 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:30:28:870  INFO 1528 --- [main] org.reflections.Reflections              : Reflections took 19 ms to scan 1 urls, producing 1 keys and 5 values 
-11:30:28:901  INFO 1528 --- [main] org.reflections.Reflections              : Reflections took 27 ms to scan 1 urls, producing 1 keys and 7 values 
-11:30:28:918  INFO 1528 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
-11:30:28:922  WARN 1528 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:30:28:924  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] RpcClient init label, labels = {module=naming, source=sdk}
-11:30:28:929  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-11:30:28:929  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-11:30:28:930  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-11:30:28:932  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-11:30:30:262  INFO 18592 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-11:30:31:719  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 3d998b8d-b5bb-4e27-97d1-f9fbf9252943
-11:30:31:780  INFO 18592 --- [main] org.reflections.Reflections              : Reflections took 33 ms to scan 1 urls, producing 3 keys and 6 values 
-11:30:31:818  INFO 18592 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 4 keys and 9 values 
-11:30:31:832  INFO 18592 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-11:30:31:836  WARN 18592 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:30:31:846  INFO 18592 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
-11:30:31:859  INFO 18592 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
-11:30:31:874  INFO 18592 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
-11:30:31:877  WARN 18592 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:30:31:878  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] RpcClient init label, labels = {module=naming, source=sdk}
-11:30:31:881  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-11:30:31:882  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-11:30:31:883  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-11:30:31:884  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-11:30:32:341  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727184206327_192.168.47.1_61966
-11:30:32:342  INFO 1528 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Notify connected event to listeners.
-11:30:32:343  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-11:30:32:343  INFO 1528 --- [main] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1060/0x000000080084f840
-11:30:32:412  INFO 1528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-11:30:32:424  INFO 1528 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
-11:30:32:915  INFO 1528 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Receive server push request, request = NotifySubscriberRequest, requestId = 7
-11:30:32:920  INFO 1528 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Ack server push request, request = NotifySubscriberRequest, requestId = 7
-11:30:33:308  INFO 1528 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-11:30:33:311  INFO 1528 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-11:30:33:353  INFO 1528 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-11:30:33:503  INFO 1528 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 16.796 seconds (JVM running for 18.539)
-11:30:34:805  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727184209007_192.168.47.1_61971
-11:30:34:806  INFO 18592 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Notify connected event to listeners.
-11:30:34:806  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-11:30:34:807  INFO 18592 --- [main] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-11:30:34:879  INFO 18592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-11:30:34:892  INFO 18592 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-11:30:35:407  INFO 1528 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Receive server push request, request = NotifySubscriberRequest, requestId = 8
-11:30:35:413  INFO 1528 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Ack server push request, request = NotifySubscriberRequest, requestId = 8
-11:30:35:441  INFO 18592 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Receive server push request, request = NotifySubscriberRequest, requestId = 9
-11:30:35:443  INFO 18592 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [3d998b8d-b5bb-4e27-97d1-f9fbf9252943] Ack server push request, request = NotifySubscriberRequest, requestId = 9
-11:30:35:883  INFO 18592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-11:30:35:887  INFO 18592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-11:30:35:915  INFO 18592 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-11:30:36:049  INFO 18592 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 15.595 seconds (JVM running for 17.313)
-11:31:31:741  INFO 1528 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:31:31:741  INFO 1528 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-11:31:31:745  INFO 1528 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-11:31:31:832  INFO 1528 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-11:31:32:123  INFO 1528 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-11:31:32:130 DEBUG 1528 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-11:31:32:158 DEBUG 1528 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-11:31:32:198 DEBUG 1528 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-11:31:33:875  INFO 18592 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:31:33:875  INFO 18592 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-11:31:33:878  INFO 18592 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-11:31:33:970  INFO 18592 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-11:31:34:298  INFO 18592 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-11:31:34:306 DEBUG 18592 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-11:31:34:331 DEBUG 18592 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-11:31:34:357 DEBUG 18592 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-11:31:35:030 DEBUG 18592 --- [http-nio-8083-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-11:31:35:031 DEBUG 18592 --- [http-nio-8083-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-11:31:35:036 DEBUG 18592 --- [http-nio-8083-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-11:31:35:528 DEBUG 1528 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-11:31:35:529 DEBUG 1528 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-11:31:35:533 DEBUG 1528 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-11:32:30:977  INFO 1528 --- [nacos-grpc-client-executor-39] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Receive server push request, request = NotifySubscriberRequest, requestId = 13
-11:32:30:980  INFO 1528 --- [nacos-grpc-client-executor-39] com.alibaba.nacos.common.remote.client   : [a10aa9a9-144b-4c96-92c8-cb44d65725f4] Ack server push request, request = NotifySubscriberRequest, requestId = 13
-12:43:32:473  INFO 11532 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 11532 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-12:43:32:478 DEBUG 11532 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-12:43:32:478  INFO 11532 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-12:43:33:909  INFO 11532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-12:43:33:913  INFO 11532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-12:43:33:949  INFO 11532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
-12:43:34:215  INFO 11532 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-12:43:34:919  INFO 11532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-12:43:34:937  INFO 11532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-12:43:34:937  INFO 11532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-12:43:35:184  INFO 11532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-12:43:35:184  INFO 11532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2641 ms
-12:43:36:631  INFO 13216 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 13216 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-12:43:36:635 DEBUG 13216 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-12:43:36:635  INFO 13216 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-12:43:38:142  INFO 13216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-12:43:38:147  INFO 13216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-12:43:38:192  INFO 13216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
-12:43:38:570  INFO 13216 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-12:43:39:190  INFO 13216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-12:43:39:207  INFO 13216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-12:43:39:208  INFO 13216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-12:43:39:429  INFO 13216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-12:43:39:429  INFO 13216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2720 ms
-12:43:40:361  INFO 11532 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-12:43:42:438  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 06d9ad81-eb03-42ef-9e6b-4b650199798f
-12:43:42:526  INFO 11532 --- [main] org.reflections.Reflections              : Reflections took 49 ms to scan 1 urls, producing 3 keys and 6 values 
-12:43:42:576  INFO 11532 --- [main] org.reflections.Reflections              : Reflections took 20 ms to scan 1 urls, producing 4 keys and 9 values 
-12:43:42:596  INFO 11532 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
-12:43:42:602  WARN 11532 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-12:43:42:619  INFO 11532 --- [main] org.reflections.Reflections              : Reflections took 15 ms to scan 1 urls, producing 1 keys and 5 values 
-12:43:42:639  INFO 11532 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 1 keys and 7 values 
-12:43:42:660  INFO 11532 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
-12:43:42:664  WARN 11532 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-12:43:42:665  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] RpcClient init label, labels = {module=naming, source=sdk}
-12:43:42:669  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-12:43:42:669  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-12:43:42:671  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-12:43:42:674  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-12:43:44:810  INFO 13216 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-12:43:46:364  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727188966443_192.168.47.1_64746
-12:43:46:365  INFO 11532 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Notify connected event to listeners.
-12:43:46:367  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-12:43:46:367  INFO 11532 --- [main] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1060/0x0000000800850440
-12:43:46:432  INFO 11532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-12:43:46:432  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 66a62b3c-3784-4693-a567-924534987e8a
-12:43:46:444  INFO 11532 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
-12:43:46:499  INFO 13216 --- [main] org.reflections.Reflections              : Reflections took 30 ms to scan 1 urls, producing 3 keys and 6 values 
-12:43:46:530  INFO 13216 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
-12:43:46:552  INFO 13216 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
-12:43:46:555  WARN 13216 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-12:43:46:565  INFO 13216 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
-12:43:46:580  INFO 13216 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
-12:43:46:593  INFO 13216 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
-12:43:46:598  WARN 13216 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-12:43:46:599  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] RpcClient init label, labels = {module=naming, source=sdk}
-12:43:46:603  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-12:43:46:604  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-12:43:46:605  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-12:43:46:624  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-12:43:46:928  INFO 11532 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Receive server push request, request = NotifySubscriberRequest, requestId = 15
-12:43:46:931  INFO 11532 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Ack server push request, request = NotifySubscriberRequest, requestId = 15
-12:43:47:398  INFO 11532 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-12:43:47:401  INFO 11532 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-12:43:47:434  INFO 11532 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-12:43:47:571  INFO 11532 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 17.167 seconds (JVM running for 18.758)
-12:43:50:308  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727188970721_192.168.47.1_64789
-12:43:50:309  INFO 13216 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Notify connected event to listeners.
-12:43:50:311  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-12:43:50:311  INFO 13216 --- [main] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1060/0x000000080084f840
-12:43:50:387  INFO 13216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-12:43:50:401  INFO 13216 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-12:43:50:845  INFO 11532 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Receive server push request, request = NotifySubscriberRequest, requestId = 16
-12:43:50:847  INFO 11532 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [06d9ad81-eb03-42ef-9e6b-4b650199798f] Ack server push request, request = NotifySubscriberRequest, requestId = 16
-12:43:50:863  INFO 13216 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Receive server push request, request = NotifySubscriberRequest, requestId = 17
-12:43:50:865  INFO 13216 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [66a62b3c-3784-4693-a567-924534987e8a] Ack server push request, request = NotifySubscriberRequest, requestId = 17
-12:43:51:187  INFO 13216 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-12:43:51:190  INFO 13216 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-12:43:51:218  INFO 13216 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-12:43:51:335  INFO 13216 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 16.71 seconds (JVM running for 18.354)
-13:19:10:187  INFO 11532 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-13:19:10:188  INFO 11532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-13:19:10:193  INFO 11532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-13:19:35:915  INFO 13216 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-13:19:35:915  INFO 13216 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-13:19:35:919  INFO 13216 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-13:19:36:028  INFO 13216 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-13:19:36:448  INFO 13216 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-13:19:36:460 DEBUG 13216 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-13:19:36:494 DEBUG 13216 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-13:19:36:537 DEBUG 13216 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-13:19:37:818  INFO 11532 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-13:19:38:280  INFO 11532 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-13:19:38:291 DEBUG 11532 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-13:19:38:327 DEBUG 11532 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-13:19:38:371 DEBUG 11532 --- [http-nio-8081-exec-3] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-16:50:58:798  INFO 17832 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 17832 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-16:50:58:801 DEBUG 17832 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-16:50:58:801  INFO 17832 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-16:50:59:920  INFO 17832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-16:50:59:923  INFO 17832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-16:50:59:975  INFO 17832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
-16:51:00:343  INFO 17832 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-16:51:00:922  INFO 17832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-16:51:00:940  INFO 17832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-16:51:00:940  INFO 17832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-16:51:01:157  INFO 17832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-16:51:01:157  INFO 17832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2308 ms
-16:51:04:765  INFO 2844 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 2844 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-16:51:04:768 DEBUG 2844 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-16:51:04:768  INFO 2844 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-16:51:05:627  INFO 17832 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-16:51:05:803  INFO 2844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-16:51:05:806  INFO 2844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-16:51:05:843  INFO 2844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-16:51:06:088  INFO 2844 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-16:51:06:490  INFO 2844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-16:51:06:502  INFO 2844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-16:51:06:502  INFO 2844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-16:51:06:642  INFO 2844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-16:51:06:642  INFO 2844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1823 ms
-16:51:06:961  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 3ab363ae-f904-44ec-a641-498d6242c3be
-16:51:07:025  INFO 17832 --- [main] org.reflections.Reflections              : Reflections took 37 ms to scan 1 urls, producing 3 keys and 6 values 
-16:51:07:059  INFO 17832 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
-16:51:07:072  INFO 17832 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-16:51:07:075  WARN 17832 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-16:51:07:086  INFO 17832 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
-16:51:07:100  INFO 17832 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
-16:51:07:117  INFO 17832 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 2 keys and 8 values 
-16:51:07:120  WARN 17832 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-16:51:07:122  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] RpcClient init label, labels = {module=naming, source=sdk}
-16:51:07:125  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-16:51:07:126  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-16:51:07:127  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-16:51:07:129  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-16:51:10:018  INFO 2844 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-16:51:11:067  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of ec8552c8-c04e-43ef-9f23-d3c503b4a3f9
-16:51:11:113  INFO 2844 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
-16:51:11:142  INFO 2844 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
-16:51:11:155  INFO 2844 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-16:51:11:158  WARN 2844 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-16:51:11:168  INFO 2844 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
-16:51:11:180  INFO 2844 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
-16:51:11:191  INFO 2844 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
-16:51:11:194  WARN 2844 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-16:51:11:195  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] RpcClient init label, labels = {module=naming, source=sdk}
-16:51:11:197  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-16:51:11:197  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-16:51:11:198  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-16:51:11:199  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-16:51:11:414 ERROR 17832 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : Server check fail, please check server 192.168.47.132 ,port 9848 is available , error ={}
-
-java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 4 milliseconds, 884600 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@5a24390b[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@60d32006, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@10820978, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@278c67a7}}}}}]]
-	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.common.remote.client.RpcClient.start(RpcClient.java:390) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.start(NamingGrpcClientProxy.java:96) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.<init>(NamingGrpcClientProxy.java:89) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.<init>(NamingClientProxyDelegate.java:76) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.client.naming.NacosNamingService.init(NacosNamingService.java:95) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.client.naming.NacosNamingService.<init>(NacosNamingService.java:81) ~[nacos-client-2.0.4.jar:na]
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
-	at com.alibaba.nacos.api.naming.NamingFactory.createNamingService(NamingFactory.java:59) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.nacos.api.NacosFactory.createNamingService(NacosFactory.java:77) ~[nacos-client-2.0.4.jar:na]
-	at com.alibaba.cloud.nacos.NacosServiceManager.createNewNamingService(NacosServiceManager.java:99) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
-	at com.alibaba.cloud.nacos.NacosServiceManager.buildNamingService(NacosServiceManager.java:90) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
-	at com.alibaba.cloud.nacos.NacosServiceManager.getNamingService(NacosServiceManager.java:46) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
-	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:130) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.27.jar:5.3.27]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
-	at com.hmall.item.ItemApplication.main(ItemApplication.java:15) ~[classes/:na]
-
-16:51:11:426  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-16:51:11:691  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727192830509_192.168.47.1_65137
-16:51:11:692  INFO 17832 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Notify connected event to listeners.
-16:51:11:692  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-16:51:11:693  INFO 17832 --- [main] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1060/0x0000000800858440
-16:51:11:757  INFO 17832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-16:51:11:769  INFO 17832 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
-16:51:12:195  INFO 17832 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Receive server push request, request = NotifySubscriberRequest, requestId = 20
-16:51:12:200  INFO 17832 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Ack server push request, request = NotifySubscriberRequest, requestId = 20
-16:51:12:540  INFO 17832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-16:51:12:544  INFO 17832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-16:51:12:584  INFO 17832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-16:51:12:716  INFO 17832 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 15.433 seconds (JVM running for 17.104)
-16:51:13:724  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727192832713_192.168.47.1_65143
-16:51:13:725  INFO 2844 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Notify connected event to listeners.
-16:51:13:725  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-16:51:13:726  INFO 2844 --- [main] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-16:51:13:785  INFO 2844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-16:51:13:796  INFO 2844 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-16:51:14:235  INFO 17832 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Receive server push request, request = NotifySubscriberRequest, requestId = 22
-16:51:14:237  INFO 17832 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [3ab363ae-f904-44ec-a641-498d6242c3be] Ack server push request, request = NotifySubscriberRequest, requestId = 22
-16:51:14:251  INFO 2844 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Receive server push request, request = NotifySubscriberRequest, requestId = 21
-16:51:14:253  INFO 2844 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [ec8552c8-c04e-43ef-9f23-d3c503b4a3f9] Ack server push request, request = NotifySubscriberRequest, requestId = 21
-16:51:14:513  INFO 2844 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-16:51:14:516  INFO 2844 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-16:51:14:543  INFO 2844 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-16:51:14:661  INFO 2844 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 11.54 seconds (JVM running for 13.316)
-17:52:49:340  INFO 372 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 372 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-17:52:49:342 DEBUG 372 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-17:52:49:343  INFO 372 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-17:52:50:811  INFO 372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-17:52:50:815  INFO 372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-17:52:50:858  INFO 372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-17:52:51:131  INFO 372 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-17:52:51:616  INFO 372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-17:52:51:628  INFO 372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-17:52:51:628  INFO 372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-17:52:51:839  INFO 372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-17:52:51:839  INFO 372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2433 ms
-17:52:53:875  INFO 22460 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 22460 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-17:52:53:878 DEBUG 22460 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-17:52:53:878  INFO 22460 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-17:52:54:927  INFO 22460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-17:52:54:930  INFO 22460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-17:52:54:967  INFO 22460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-17:52:55:226  INFO 22460 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-17:52:55:624  INFO 22460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-17:52:55:634  INFO 22460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-17:52:55:634  INFO 22460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-17:52:55:766  INFO 22460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-17:52:55:766  INFO 22460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1834 ms
-17:52:55:883  INFO 372 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-17:52:57:249  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 8d206ad0-9aaf-4889-99e4-84164907c106
-17:52:57:303  INFO 372 --- [main] org.reflections.Reflections              : Reflections took 30 ms to scan 1 urls, producing 3 keys and 6 values 
-17:52:57:335  INFO 372 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
-17:52:57:349  INFO 372 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-17:52:57:352  WARN 372 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-17:52:57:362  INFO 372 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
-17:52:57:373  INFO 372 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
-17:52:57:384  INFO 372 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
-17:52:57:387  WARN 372 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-17:52:57:388  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] RpcClient init label, labels = {module=naming, source=sdk}
-17:52:57:393  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-17:52:57:393  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-17:52:57:394  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-17:52:57:396  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-17:52:59:234  INFO 22460 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-17:52:59:946  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727196847702_192.168.47.1_50772
-17:52:59:947  INFO 372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Notify connected event to listeners.
-17:52:59:948  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-17:52:59:948  INFO 372 --- [main] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-17:53:00:011  INFO 372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-17:53:00:025  INFO 372 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
-17:53:00:462  INFO 372 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Receive server push request, request = NotifySubscriberRequest, requestId = 24
-17:53:00:465  INFO 372 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Ack server push request, request = NotifySubscriberRequest, requestId = 24
-17:53:00:524  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of abbc0501-15b2-4223-826b-1867101a5622
-17:53:00:580  INFO 22460 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
-17:53:00:610  INFO 22460 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
-17:53:00:628  INFO 22460 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 3 keys and 10 values 
-17:53:00:632  WARN 22460 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-17:53:00:642  INFO 22460 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
-17:53:00:660  INFO 22460 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 1 keys and 7 values 
-17:53:00:680  INFO 22460 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
-17:53:00:684  WARN 22460 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-17:53:00:685  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] RpcClient init label, labels = {module=naming, source=sdk}
-17:53:00:688  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-17:53:00:689  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-17:53:00:690  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-17:53:00:692  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-17:53:00:805  INFO 372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-17:53:00:808  INFO 372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-17:53:00:851  INFO 372 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-17:53:01:000  INFO 372 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 13.525 seconds (JVM running for 14.992)
-17:53:03:253  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727196851316_192.168.47.1_50812
-17:53:03:254  INFO 22460 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Notify connected event to listeners.
-17:53:03:256  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-17:53:03:258  INFO 22460 --- [main] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-17:53:03:319  INFO 22460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-17:53:03:329  INFO 22460 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-17:53:03:737  INFO 372 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Receive server push request, request = NotifySubscriberRequest, requestId = 25
-17:53:03:738  INFO 372 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [8d206ad0-9aaf-4889-99e4-84164907c106] Ack server push request, request = NotifySubscriberRequest, requestId = 25
-17:53:03:752  INFO 22460 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Receive server push request, request = NotifySubscriberRequest, requestId = 26
-17:53:03:753  INFO 22460 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Ack server push request, request = NotifySubscriberRequest, requestId = 26
-17:53:04:012  INFO 22460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-17:53:04:015  INFO 22460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-17:53:04:044  INFO 22460 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-17:53:04:190  INFO 22460 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 12.18 seconds (JVM running for 13.783)
-18:12:48:823  INFO 22460 --- [nacos-grpc-client-executor-267] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Receive server push request, request = NotifySubscriberRequest, requestId = 27
-18:12:48:826  INFO 22460 --- [nacos-grpc-client-executor-267] com.alibaba.nacos.common.remote.client   : [abbc0501-15b2-4223-826b-1867101a5622] Ack server push request, request = NotifySubscriberRequest, requestId = 27
-18:15:18:099  INFO 4700 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 4700 (D:\Java\10\hmall\item-service\target\test-classes started by 李新安 in D:\Java\10\hmall)
-18:15:18:102 DEBUG 4700 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:15:18:102  INFO 4700 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-18:15:19:117  INFO 4700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:15:19:121  INFO 4700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:15:19:155  INFO 4700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-18:15:19:410  INFO 4700 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1155ac60-3d12-35de-8374-8ffb18d5d455
-18:15:20:232  INFO 4700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-18:15:20:242  INFO 4700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:15:20:242  INFO 4700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:15:20:372  INFO 4700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:15:20:373  INFO 4700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
-18:15:23:278  INFO 4700 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:15:24:304  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of c6755c9b-0e48-47d2-ae20-e6e2b28fea46
-18:15:24:357  INFO 4700 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
-18:15:24:385  INFO 4700 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
-18:15:24:398  INFO 4700 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-18:15:24:403  WARN 4700 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:15:24:414  INFO 4700 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
-18:15:24:427  INFO 4700 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
-18:15:24:440  INFO 4700 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
-18:15:24:442  WARN 4700 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:15:24:444  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] RpcClient init label, labels = {module=naming, source=sdk}
-18:15:24:446  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-18:15:24:446  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-18:15:24:447  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-18:15:24:448  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-18:15:26:762  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727198306723_192.168.47.1_52308
-18:15:26:765  INFO 4700 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Notify connected event to listeners.
-18:15:26:769  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-18:15:26:772  INFO 4700 --- [main] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1005/0x0000000800747c40
-18:15:26:871  INFO 4700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-18:15:26:885  INFO 4700 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
-18:15:27:312  INFO 4700 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Receive server push request, request = NotifySubscriberRequest, requestId = 28
-18:15:27:316  INFO 4700 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Ack server push request, request = NotifySubscriberRequest, requestId = 28
-18:15:27:750  INFO 4700 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:15:27:755  INFO 4700 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:15:27:812  INFO 4700 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:15:28:030  INFO 4700 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 11.607 seconds (JVM running for 12.222)
-18:15:30:221  INFO 8752 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 8752 (D:\Java\10\hmall\item-service\target\test-classes started by 李新安 in D:\Java\10\hmall)
-18:15:30:223 DEBUG 8752 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:15:30:224  INFO 8752 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-18:15:31:264  INFO 8752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:15:31:267  INFO 8752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:15:31:296  INFO 8752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-18:15:31:542  INFO 8752 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1155ac60-3d12-35de-8374-8ffb18d5d455
-18:15:32:478  INFO 8752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-18:15:32:489  INFO 8752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:15:32:489  INFO 8752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:15:32:634  INFO 8752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:15:32:634  INFO 8752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2355 ms
-18:15:35:714  INFO 8752 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:15:36:862  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 19cbb2bf-7922-4bd8-8995-c5a03d45ccd7
-18:15:36:909  INFO 8752 --- [main] org.reflections.Reflections              : Reflections took 27 ms to scan 1 urls, producing 3 keys and 6 values 
-18:15:36:938  INFO 8752 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
-18:15:36:950  INFO 8752 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
-18:15:36:954  WARN 8752 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:15:36:963  INFO 8752 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
-18:15:36:973  INFO 8752 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
-18:15:36:986  INFO 8752 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
-18:15:36:988  WARN 8752 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:15:36:989  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] RpcClient init label, labels = {module=naming, source=sdk}
-18:15:36:991  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-18:15:36:991  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-18:15:36:993  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-18:15:36:995  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-18:15:40:285  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727198321305_192.168.47.1_52349
-18:15:40:285  INFO 8752 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Notify connected event to listeners.
-18:15:40:287  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-18:15:40:288  INFO 8752 --- [main] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1005/0x0000000800747c40
-18:15:40:358  INFO 8752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-18:15:40:368  INFO 8752 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-18:15:40:814  INFO 4700 --- [nacos-grpc-client-executor-13] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Receive server push request, request = NotifySubscriberRequest, requestId = 29
-18:15:40:819  INFO 4700 --- [nacos-grpc-client-executor-13] com.alibaba.nacos.common.remote.client   : [c6755c9b-0e48-47d2-ae20-e6e2b28fea46] Ack server push request, request = NotifySubscriberRequest, requestId = 29
-18:15:40:847  INFO 8752 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Receive server push request, request = NotifySubscriberRequest, requestId = 30
-18:15:40:851  INFO 8752 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Ack server push request, request = NotifySubscriberRequest, requestId = 30
-18:15:41:301  INFO 8752 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:15:41:310  INFO 8752 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:15:41:380  INFO 8752 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:15:41:607  INFO 8752 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 13.1 seconds (JVM running for 13.78)
-18:16:23:312  INFO 8752 --- [nacos-grpc-client-executor-20] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Receive server push request, request = NotifySubscriberRequest, requestId = 31
-18:16:23:321  INFO 8752 --- [nacos-grpc-client-executor-20] com.alibaba.nacos.common.remote.client   : [19cbb2bf-7922-4bd8-8995-c5a03d45ccd7] Ack server push request, request = NotifySubscriberRequest, requestId = 31
-18:18:24:445  INFO 8248 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 8248 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-18:18:24:448 DEBUG 8248 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:18:24:448  INFO 8248 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-18:18:25:436  INFO 8248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:18:25:445  INFO 8248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:18:25:472  INFO 8248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-18:18:25:681  INFO 8248 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-18:18:26:097  INFO 8248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-18:18:26:109  INFO 8248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:18:26:109  INFO 8248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:18:26:247  INFO 8248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:18:26:247  INFO 8248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1755 ms
-18:18:29:734  INFO 8248 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:18:30:849  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of c0db05c8-12e9-4c36-a540-34e4d9afa675
-18:18:30:897  INFO 8248 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
-18:18:30:930  INFO 8248 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
-18:18:30:944  INFO 8248 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-18:18:30:949  WARN 8248 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:18:30:959  INFO 8248 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
-18:18:30:974  INFO 8248 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
-18:18:30:986  INFO 8248 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
-18:18:30:988  WARN 8248 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:18:30:989  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] RpcClient init label, labels = {module=naming, source=sdk}
-18:18:30:991  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-18:18:30:991  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-18:18:30:992  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-18:18:30:993  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-18:18:33:074  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727198508589_192.168.47.1_52500
-18:18:33:077  INFO 8248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Notify connected event to listeners.
-18:18:33:079  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-18:18:33:081  INFO 8248 --- [main] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-18:18:33:139  INFO 8248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-18:18:33:149  INFO 8248 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
-18:18:33:609  INFO 8248 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Receive server push request, request = NotifySubscriberRequest, requestId = 32
-18:18:33:613  INFO 8248 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Ack server push request, request = NotifySubscriberRequest, requestId = 32
-18:18:33:714  INFO 8248 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:18:33:716  INFO 8248 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:18:33:743  INFO 8248 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:18:33:870  INFO 8248 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 11.053 seconds (JVM running for 12.6)
-18:18:59:955  INFO 22196 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 22196 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-18:18:59:959 DEBUG 22196 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:18:59:960  INFO 22196 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-18:19:02:623  INFO 22196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:19:02:626  INFO 22196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:19:02:658  INFO 22196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-18:19:02:929  INFO 22196 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-18:19:03:339  INFO 22196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-18:19:03:348  INFO 22196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:19:03:349  INFO 22196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:19:03:493  INFO 22196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:19:03:494  INFO 22196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3239 ms
-18:19:07:682  INFO 22196 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:19:09:107  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 75fa736f-c290-4090-b573-e62aa7955f59
-18:19:09:158  INFO 22196 --- [main] org.reflections.Reflections              : Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
-18:19:09:188  INFO 22196 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
-18:19:09:201  INFO 22196 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
-18:19:09:203  WARN 22196 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:19:09:214  INFO 22196 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
-18:19:09:225  INFO 22196 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
-18:19:09:238  INFO 22196 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
-18:19:09:241  WARN 22196 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:19:09:241  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] RpcClient init label, labels = {module=naming, source=sdk}
-18:19:09:245  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-18:19:09:245  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-18:19:09:246  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-18:19:09:248  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-18:19:11:655  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727198550382_192.168.47.1_52624
-18:19:11:657  INFO 22196 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Notify connected event to listeners.
-18:19:11:657  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-18:19:11:658  INFO 22196 --- [main] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-18:19:11:720  INFO 22196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-18:19:11:729  INFO 22196 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-18:19:12:145  INFO 8248 --- [nacos-grpc-client-executor-20] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Receive server push request, request = NotifySubscriberRequest, requestId = 35
-18:19:12:148  INFO 8248 --- [nacos-grpc-client-executor-20] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Ack server push request, request = NotifySubscriberRequest, requestId = 35
-18:19:12:158  INFO 22196 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Receive server push request, request = NotifySubscriberRequest, requestId = 34
-18:19:12:160  INFO 22196 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [75fa736f-c290-4090-b573-e62aa7955f59] Ack server push request, request = NotifySubscriberRequest, requestId = 34
-18:19:12:377  INFO 22196 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:19:12:382  INFO 22196 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:19:12:412  INFO 22196 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:19:12:541  INFO 22196 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 14.608 seconds (JVM running for 16.144)
-18:19:53:610  INFO 8248 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-18:19:53:611  INFO 8248 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-18:19:53:613  INFO 8248 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-18:19:53:686  INFO 8248 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-18:19:53:976  INFO 8248 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-18:19:53:983 DEBUG 8248 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-18:19:54:008 DEBUG 8248 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-18:19:54:049 DEBUG 8248 --- [http-nio-8081-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-18:20:29:218  INFO 8248 --- [nacos-grpc-client-executor-38] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Receive server push request, request = NotifySubscriberRequest, requestId = 38
-18:20:29:220  INFO 8248 --- [nacos-grpc-client-executor-38] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Ack server push request, request = NotifySubscriberRequest, requestId = 38
-18:20:33:196  INFO 8228 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 8228 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
-18:20:33:199 DEBUG 8228 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:20:33:200  INFO 8228 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-18:20:34:198  INFO 8228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:20:34:201  INFO 8228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:20:34:229  INFO 8228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-18:20:34:460  INFO 8228 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
-18:20:35:153  INFO 8228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-18:20:35:166  INFO 8228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:20:35:166  INFO 8228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:20:35:352  INFO 8228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:20:35:352  INFO 8228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2110 ms
-18:20:38:655  INFO 8228 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:20:39:747  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 2c2d394d-dab1-42f9-bf77-f4cc2108e70a
-18:20:39:796  INFO 8228 --- [main] org.reflections.Reflections              : Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
-18:20:39:824  INFO 8228 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
-18:20:39:837  INFO 8228 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
-18:20:39:842  WARN 8228 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:20:39:852  INFO 8228 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
-18:20:39:864  INFO 8228 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
-18:20:39:875  INFO 8228 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
-18:20:39:877  WARN 8228 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:20:39:878  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] RpcClient init label, labels = {module=naming, source=sdk}
-18:20:39:881  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-18:20:39:881  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-18:20:39:882  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-18:20:39:884  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-18:20:42:147  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727198648402_192.168.47.1_52762
-18:20:42:148  INFO 8228 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Notify connected event to listeners.
-18:20:42:149  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-18:20:42:151  INFO 8228 --- [main] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-18:20:42:206  INFO 8228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-18:20:42:215  INFO 8228 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
-18:20:42:702  INFO 8248 --- [nacos-grpc-client-executor-41] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Receive server push request, request = NotifySubscriberRequest, requestId = 41
-18:20:42:705  INFO 8248 --- [nacos-grpc-client-executor-41] com.alibaba.nacos.common.remote.client   : [c0db05c8-12e9-4c36-a540-34e4d9afa675] Ack server push request, request = NotifySubscriberRequest, requestId = 41
-18:20:42:721  INFO 8228 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Receive server push request, request = NotifySubscriberRequest, requestId = 40
-18:20:42:722  INFO 8228 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [2c2d394d-dab1-42f9-bf77-f4cc2108e70a] Ack server push request, request = NotifySubscriberRequest, requestId = 40
-18:20:42:869  INFO 8228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:20:42:871  INFO 8228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:20:42:900  INFO 8228 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:20:43:028  INFO 8228 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 11.318 seconds (JVM running for 12.822)
-18:21:12:698  INFO 8228 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-18:21:12:698  INFO 8228 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-18:21:12:701  INFO 8228 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-18:21:12:803  INFO 8228 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-18:21:13:116  INFO 8228 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-18:21:13:123 DEBUG 8228 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-18:21:13:149 DEBUG 8228 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-18:21:13:175 DEBUG 8228 --- [http-nio-8083-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-18:21:14:031 DEBUG 8248 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-18:21:14:032 DEBUG 8248 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-18:21:14:034 DEBUG 8248 --- [http-nio-8081-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-18:21:14:549 DEBUG 8228 --- [http-nio-8083-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-18:21:14:549 DEBUG 8228 --- [http-nio-8083-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-18:21:14:552 DEBUG 8228 --- [http-nio-8083-exec-4] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
-18:21:14:768 DEBUG 8248 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-18:21:14:769 DEBUG 8248 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
-18:21:14:777 DEBUG 8248 --- [http-nio-8081-exec-2] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+09:30:19:964  INFO 18956 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 18956 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
+09:30:19:978 DEBUG 18956 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+09:30:19:979  INFO 18956 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+09:30:21:824  INFO 18956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+09:30:21:831  INFO 18956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:30:21:879  INFO 18956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+09:30:22:292  INFO 18956 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
+09:30:23:038  INFO 18956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+09:30:23:062  INFO 18956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+09:30:23:062  INFO 18956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+09:30:23:333  INFO 18956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+09:30:23:333  INFO 18956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3212 ms
+09:30:29:821  INFO 21172 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 21172 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
+09:30:29:826 DEBUG 21172 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+09:30:29:827  INFO 21172 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+09:30:30:022  INFO 18956 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+09:30:31:347  INFO 21172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+09:30:31:358  INFO 21172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:30:31:442  INFO 21172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+09:30:31:863  INFO 21172 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=80cd53fa-f5b7-3abe-9686-c55bf5220b78
+09:30:32:153  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f38334f9-c39b-40fb-aa7d-d556a683b933
+09:30:32:268  INFO 18956 --- [main] org.reflections.Reflections              : Reflections took 65 ms to scan 1 urls, producing 3 keys and 6 values 
+09:30:32:345  INFO 18956 --- [main] org.reflections.Reflections              : Reflections took 33 ms to scan 1 urls, producing 4 keys and 9 values 
+09:30:32:372  INFO 18956 --- [main] org.reflections.Reflections              : Reflections took 20 ms to scan 1 urls, producing 3 keys and 10 values 
+09:30:32:379  WARN 18956 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+09:30:32:402  INFO 18956 --- [main] org.reflections.Reflections              : Reflections took 22 ms to scan 1 urls, producing 1 keys and 5 values 
+09:30:32:420  INFO 18956 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+09:30:32:441  INFO 18956 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 2 keys and 8 values 
+09:30:32:445  WARN 18956 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+09:30:32:447  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] RpcClient init label, labels = {module=naming, source=sdk}
+09:30:32:450  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+09:30:32:450  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+09:30:32:452  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+09:30:32:454  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
+09:30:32:589  INFO 21172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+09:30:32:603  INFO 21172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+09:30:32:604  INFO 21172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+09:30:32:819  INFO 21172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+09:30:32:820  INFO 21172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2929 ms
+09:30:36:413  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727212658893_192.168.47.1_62084
+09:30:36:414  INFO 18956 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Notify connected event to listeners.
+09:30:36:417  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+09:30:36:417  INFO 18956 --- [main] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1060/0x00000008007df840
+09:30:36:551  INFO 18956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+09:30:36:564  INFO 18956 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8081 register finished
+09:30:36:967  INFO 18956 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Receive server push request, request = NotifySubscriberRequest, requestId = 47
+09:30:36:973  INFO 18956 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Ack server push request, request = NotifySubscriberRequest, requestId = 47
+09:30:37:672  INFO 18956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+09:30:37:679  INFO 18956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+09:30:37:761  INFO 18956 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+09:30:37:970  INFO 21172 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+09:30:38:050  INFO 18956 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 21.018 seconds (JVM running for 23.27)
+09:30:40:100  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 131f7e40-f59b-4335-807a-4c5ff944484f
+09:30:40:186  INFO 21172 --- [main] org.reflections.Reflections              : Reflections took 50 ms to scan 1 urls, producing 3 keys and 6 values 
+09:30:40:238  INFO 21172 --- [main] org.reflections.Reflections              : Reflections took 22 ms to scan 1 urls, producing 4 keys and 9 values 
+09:30:40:261  INFO 21172 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
+09:30:40:267  WARN 21172 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+09:30:40:293  INFO 21172 --- [main] org.reflections.Reflections              : Reflections took 25 ms to scan 1 urls, producing 1 keys and 5 values 
+09:30:40:340  INFO 21172 --- [main] org.reflections.Reflections              : Reflections took 38 ms to scan 1 urls, producing 1 keys and 7 values 
+09:30:40:392  INFO 21172 --- [main] org.reflections.Reflections              : Reflections took 36 ms to scan 1 urls, producing 2 keys and 8 values 
+09:30:40:407  WARN 21172 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+09:30:40:412  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] RpcClient init label, labels = {module=naming, source=sdk}
+09:30:40:424  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+09:30:40:427  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+09:30:40:486  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+09:30:40:496  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
+09:30:43:553  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727212666684_192.168.47.1_62123
+09:30:43:557  INFO 21172 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Notify connected event to listeners.
+09:30:43:561  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+09:30:43:562  INFO 21172 --- [main] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1060/0x000000080084f840
+09:30:43:722  INFO 21172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+09:30:43:740  INFO 21172 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.43.135:8083 register finished
+09:30:44:139  INFO 18956 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Receive server push request, request = NotifySubscriberRequest, requestId = 48
+09:30:44:143  INFO 18956 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [f38334f9-c39b-40fb-aa7d-d556a683b933] Ack server push request, request = NotifySubscriberRequest, requestId = 48
+09:30:44:172  INFO 21172 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Receive server push request, request = NotifySubscriberRequest, requestId = 49
+09:30:44:175  INFO 21172 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [131f7e40-f59b-4335-807a-4c5ff944484f] Ack server push request, request = NotifySubscriberRequest, requestId = 49
+09:30:44:834  INFO 21172 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+09:30:44:840  INFO 21172 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+09:30:44:898  INFO 21172 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+09:30:45:142  INFO 21172 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 18.116 seconds (JVM running for 20.354)
