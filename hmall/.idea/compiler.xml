@@ -10,9 +10,11 @@
         <module name="item-service" />
         <module name="hm-service" />
         <module name="cart-service" />
+        <module name="pay-service" />
         <module name="hm-api" />
         <module name="hm-common" />
         <module name="user-service" />
+        <module name="trade-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,8 @@
       <module name="hm-service" target="11" />
       <module name="hmall" target="1.8" />
       <module name="item-service" target="1.8" />
+      <module name="pay-service" target="1.8" />
+      <module name="trade-service" target="1.8" />
       <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -32,6 +36,8 @@
       <module name="hm-common" options="-parameters" />
       <module name="hm-service" options="-parameters" />
       <module name="item-service" options="-parameters" />
+      <module name="pay-service" options="-parameters" />
+      <module name="trade-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

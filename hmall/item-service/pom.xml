@@ -36,6 +36,12 @@
             <artifactId>hm-common</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <!--api-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>hm-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -45,3 +45,958 @@
 09:34:55:448 DEBUG 8952 --- [http-nio-8084-exec-10] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
 09:34:55:555 DEBUG 8952 --- [http-nio-8084-exec-10] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: Jack(String)
 09:34:55:728 DEBUG 8952 --- [http-nio-8084-exec-10] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+18:04:06:783  INFO 18020 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 18020 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:04:06:785 DEBUG 18020 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:04:06:786  INFO 18020 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+18:04:07:829  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:04:07:832  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:04:07:859  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+18:04:08:129  INFO 18020 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e96d6af4-e41a-3aac-ae4d-34d8d96b7c20
+18:04:08:600  INFO 18020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+18:04:08:611  INFO 18020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:04:08:611  INFO 18020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:04:08:800  INFO 18020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:04:08:800  INFO 18020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1966 ms
+18:04:11:705  INFO 18020 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:04:12:953  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 7e948b3c-aa5c-4804-b6f8-66946e942201
+18:04:13:002  INFO 18020 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
+18:04:13:031  INFO 18020 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+18:04:13:045  INFO 18020 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+18:04:13:049  WARN 18020 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:04:13:058  INFO 18020 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+18:04:13:071  INFO 18020 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+18:04:13:082  INFO 18020 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+18:04:13:085  WARN 18020 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:04:13:086  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] RpcClient init label, labels = {module=naming, source=sdk}
+18:04:13:088  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:04:13:088  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:04:13:088  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:04:13:090  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
+18:04:15:306  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727218756711_192.168.47.1_65171
+18:04:15:309  INFO 18020 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Notify connected event to listeners.
+18:04:15:315  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:04:15:317  INFO 18020 --- [main] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1076/0x00000008007bb840
+18:04:15:416  INFO 18020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+18:04:15:429  INFO 18020 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-api 192.168.43.135:8081 register finished
+18:04:15:858  INFO 18020 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Receive server push request, request = NotifySubscriberRequest, requestId = 51
+18:04:15:861  INFO 18020 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Ack server push request, request = NotifySubscriberRequest, requestId = 51
+18:04:16:035  INFO 18020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:04:16:038  INFO 18020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:04:16:066  INFO 18020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:04:16:199  INFO 18020 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 10.986 seconds (JVM running for 12.807)
+18:04:36:972  INFO 12716 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.1 on 工藤新一 with PID 12716 (D:\Java\10\hmall\item-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:04:36:974 DEBUG 12716 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:04:36:974  INFO 12716 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+18:04:38:419  INFO 12716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:04:38:421  INFO 12716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:04:38:454  INFO 12716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+18:04:38:775  INFO 12716 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e96d6af4-e41a-3aac-ae4d-34d8d96b7c20
+18:04:39:267  INFO 12716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+18:04:39:281  INFO 12716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:04:39:281  INFO 12716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:04:39:465  INFO 12716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:04:39:465  INFO 12716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2430 ms
+18:04:44:315  INFO 12716 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:04:45:634  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of b473aab6-2abd-49f3-b30a-c262e5cd378a
+18:04:45:686  INFO 12716 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
+18:04:45:717  INFO 12716 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+18:04:45:729  INFO 12716 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+18:04:45:735  WARN 12716 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:04:45:745  INFO 12716 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+18:04:45:757  INFO 12716 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+18:04:45:777  INFO 12716 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
+18:04:45:779  WARN 12716 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:04:45:780  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] RpcClient init label, labels = {module=naming, source=sdk}
+18:04:45:782  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:04:45:782  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:04:45:783  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:04:45:786  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
+18:04:49:128  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727218793324_192.168.47.1_65237
+18:04:49:129  INFO 12716 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Notify connected event to listeners.
+18:04:49:131  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:04:49:131  INFO 12716 --- [main] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1076/0x000000080079c040
+18:04:49:204  INFO 12716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+18:04:49:218  INFO 12716 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-api 192.168.43.135:8083 register finished
+18:04:49:684  INFO 18020 --- [nacos-grpc-client-executor-21] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Receive server push request, request = NotifySubscriberRequest, requestId = 52
+18:04:49:689  INFO 18020 --- [nacos-grpc-client-executor-21] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Ack server push request, request = NotifySubscriberRequest, requestId = 52
+18:04:49:729  INFO 12716 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Receive server push request, request = NotifySubscriberRequest, requestId = 53
+18:04:49:731  INFO 12716 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Ack server push request, request = NotifySubscriberRequest, requestId = 53
+18:04:50:509  INFO 12716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:04:50:515  INFO 12716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:04:50:564  INFO 12716 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:04:50:719  INFO 12716 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 15.571 seconds (JVM running for 17.522)
+18:04:51:391  INFO 12660 --- [main] com.hmall.user.UserServiceApplication    : Starting UserServiceApplication using Java 11.0.1 on 工藤新一 with PID 12660 (D:\Java\10\hmall\user-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:04:51:393 DEBUG 12660 --- [main] com.hmall.user.UserServiceApplication    : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:04:51:394  INFO 12660 --- [main] com.hmall.user.UserServiceApplication    : The following 1 profile is active: "local"
+18:04:52:827  INFO 12660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:04:52:830  INFO 12660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:04:52:865  INFO 12660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+18:04:53:155  INFO 12660 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=270fb5d8-cd84-342f-b5ce-2ec5b7de9280
+18:04:53:584  INFO 12660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+18:04:53:595  INFO 12660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:04:53:595  INFO 12660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:04:53:753  INFO 12660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:04:53:753  INFO 12660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2304 ms
+18:04:57:056  INFO 12660 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:04:58:311  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 5c4743ac-0e32-446f-bb0a-1e163183812c
+18:04:58:361  INFO 12660 --- [main] org.reflections.Reflections              : Reflections took 25 ms to scan 1 urls, producing 3 keys and 6 values 
+18:04:58:391  INFO 12660 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
+18:04:58:403  INFO 12660 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+18:04:58:408  WARN 12660 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:04:58:417  INFO 12660 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+18:04:58:428  INFO 12660 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+18:04:58:440  INFO 12660 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+18:04:58:443  WARN 12660 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:04:58:444  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] RpcClient init label, labels = {module=naming, source=sdk}
+18:04:58:447  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:04:58:447  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:04:58:448  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:04:58:449  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
+18:05:00:682  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727218805842_192.168.47.1_65280
+18:05:00:685  INFO 12660 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Notify connected event to listeners.
+18:05:00:688  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:05:00:690  INFO 12660 --- [main] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1094/0x0000000800865840
+18:05:00:772  INFO 12660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+18:05:00:782  INFO 12660 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-api 192.168.43.135:8084 register finished
+18:05:01:213  INFO 18020 --- [nacos-grpc-client-executor-23] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Receive server push request, request = NotifySubscriberRequest, requestId = 54
+18:05:01:213  INFO 12716 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Receive server push request, request = NotifySubscriberRequest, requestId = 55
+18:05:01:218  INFO 12716 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Ack server push request, request = NotifySubscriberRequest, requestId = 55
+18:05:01:218  INFO 18020 --- [nacos-grpc-client-executor-23] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Ack server push request, request = NotifySubscriberRequest, requestId = 54
+18:05:01:234  INFO 12660 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Receive server push request, request = NotifySubscriberRequest, requestId = 56
+18:05:01:239  INFO 12660 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Ack server push request, request = NotifySubscriberRequest, requestId = 56
+18:05:01:401  INFO 12660 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:05:01:404  INFO 12660 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:05:01:428  INFO 12660 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:05:01:533  INFO 12660 --- [main] com.hmall.user.UserServiceApplication    : Started UserServiceApplication in 11.907 seconds (JVM running for 13.662)
+18:05:19:238  INFO 4052 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 4052 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:05:19:241 DEBUG 4052 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:05:19:241  INFO 4052 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+18:05:20:252  INFO 4052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:05:20:256  INFO 4052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:05:20:299  INFO 4052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+18:05:20:551  INFO 4052 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9b18db23-b01e-3c80-8f8a-729aeb5df33f
+18:05:20:961  INFO 4052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:05:20:971  INFO 4052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:05:20:971  INFO 4052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:05:21:125  INFO 4052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:05:21:125  INFO 4052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+18:05:21:330  WARN 4052 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+18:05:21:332  INFO 4052 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:05:21:350  INFO 4052 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:05:21:379 ERROR 4052 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+18:06:23:328  INFO 20272 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 20272 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:06:23:331 DEBUG 20272 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:06:23:331  INFO 20272 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+18:06:24:583  INFO 20272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:06:24:585  INFO 20272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:06:24:628  INFO 20272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+18:06:24:900  INFO 20272 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9b18db23-b01e-3c80-8f8a-729aeb5df33f
+18:06:25:322  INFO 20272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:06:25:333  INFO 20272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:06:25:334  INFO 20272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:06:25:500  INFO 20272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:06:25:500  INFO 20272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2108 ms
+18:06:25:724  WARN 20272 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+18:06:25:726  INFO 20272 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:06:25:742  INFO 20272 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:06:25:771 ERROR 20272 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+18:27:02:956  INFO 19056 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 19056 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:27:02:959 DEBUG 19056 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:27:02:959  INFO 19056 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+18:27:04:044  INFO 19056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:27:04:047  INFO 19056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:27:04:079  INFO 19056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+18:27:04:361  INFO 19056 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9b18db23-b01e-3c80-8f8a-729aeb5df33f
+18:27:04:782  INFO 19056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:27:04:794  INFO 19056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:27:04:794  INFO 19056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:27:04:955  INFO 19056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:27:04:955  INFO 19056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1948 ms
+18:27:05:165  WARN 19056 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+18:27:05:168  INFO 19056 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:27:05:186  INFO 19056 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:27:05:212 ERROR 19056 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+18:30:00:475  INFO 8660 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 8660 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:30:00:477 DEBUG 8660 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:30:00:477  INFO 8660 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+18:30:01:520  INFO 8660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:30:01:523  INFO 8660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:30:01:550  INFO 8660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+18:30:01:801  INFO 8660 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+18:30:02:206  INFO 8660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:30:02:219  INFO 8660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:30:02:219  INFO 8660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:30:02:389  INFO 8660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:30:02:390  INFO 8660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1864 ms
+18:30:02:588  WARN 8660 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+18:30:02:590  INFO 8660 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:30:02:607  INFO 8660 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:30:02:633 ERROR 8660 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+18:38:22:569  INFO 14044 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 14044 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:38:22:573 DEBUG 14044 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:38:22:573  INFO 14044 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+18:38:23:584  INFO 14044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:38:23:587  INFO 14044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:38:23:613  INFO 14044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+18:38:23:875  INFO 14044 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+18:38:24:314  INFO 14044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:38:24:323  INFO 14044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:38:24:325  INFO 14044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:38:24:473  INFO 14044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:38:24:473  INFO 14044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1854 ms
+18:38:24:678  WARN 14044 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+18:38:24:680  INFO 14044 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:38:24:698  INFO 14044 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:38:24:726 ERROR 14044 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+18:39:25:046  INFO 17496 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 17496 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+18:39:25:048 DEBUG 17496 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:39:25:049  INFO 17496 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+18:39:26:071  INFO 17496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:39:26:074  INFO 17496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:39:26:105  INFO 17496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+18:39:26:384  INFO 17496 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+18:39:26:827  INFO 17496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:39:26:837  INFO 17496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:39:26:837  INFO 17496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:39:27:001  INFO 17496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:39:27:001  INFO 17496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1902 ms
+18:39:27:213  WARN 17496 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+18:39:27:216  INFO 17496 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:39:27:231  INFO 17496 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:39:27:259 ERROR 17496 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+19:14:30:400  INFO 18020 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:14:30:413  INFO 18020 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+19:14:30:530  INFO 18020 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 116 ms
+19:46:46:301  INFO 20580 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 20580 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+19:46:46:311 DEBUG 20580 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:46:46:313  INFO 20580 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+19:46:49:959  INFO 20580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+19:46:49:970  INFO 20580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:46:50:079  INFO 20580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+19:46:50:782  INFO 20580 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+19:46:52:376  INFO 20580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+19:46:52:416  INFO 20580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:46:52:418  INFO 20580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:46:53:070  INFO 20580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:46:53:071  INFO 20580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6562 ms
+19:46:53:932  WARN 20580 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+19:46:53:940  INFO 20580 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+19:46:54:003  INFO 20580 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19:46:54:105 ERROR 20580 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+19:49:46:414  INFO 21124 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 21124 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+19:49:46:419 DEBUG 21124 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:49:46:420  INFO 21124 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+19:49:48:220  INFO 21124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+19:49:48:227  INFO 21124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:49:48:290  INFO 21124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+19:49:48:800  INFO 21124 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+19:49:49:541  INFO 21124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+19:49:49:561  INFO 21124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:49:49:562  INFO 21124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:49:49:846  INFO 21124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:49:49:865  INFO 21124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3370 ms
+19:49:50:252  WARN 21124 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+19:49:50:258  INFO 21124 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+19:49:50:294  INFO 21124 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19:49:50:352 ERROR 21124 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+19:53:16:262  INFO 812 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 812 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+19:53:16:266 DEBUG 812 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:53:16:266  INFO 812 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+19:53:18:301  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+19:53:18:309  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:53:18:368  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+19:53:19:082  INFO 812 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+19:53:20:237  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+19:53:20:278  INFO 812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:53:20:279  INFO 812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:53:20:897  INFO 812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:53:20:898  INFO 812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4557 ms
+19:53:21:707  WARN 812 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+19:53:21:716  INFO 812 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+19:53:21:780  INFO 812 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19:53:21:889 ERROR 812 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderServiceImpl' defined in file [D:\Java\10\hmall\trade-service\target\classes\com\hmall\trade\service\impl\OrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.api.client.ItemClient': Unexpected exception during bean creation; nested exception is java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: feign/slf4j/Slf4jLogger
+	at org.springframework.cloud.openfeign.DefaultFeignLoggerFactory.create(DefaultFeignLoggerFactory.java:35) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:124) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: feign.slf4j.Slf4jLogger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 51 common frames omitted
+
+19:55:30:557  INFO 23020 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 11.0.1 on 工藤新一 with PID 23020 (D:\Java\10\hmall\trade-service\target\classes started by 李新安 in D:\Java\10\hmall)
+19:55:30:561 DEBUG 23020 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:55:30:562  INFO 23020 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+19:55:34:362  INFO 23020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+19:55:34:368  INFO 23020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:55:34:430  INFO 23020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+19:55:34:870  INFO 23020 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0b8481cc-5430-3db9-b640-43a37b9fe3fb
+19:55:35:657  INFO 23020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+19:55:35:675  INFO 23020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:55:35:676  INFO 23020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:55:35:908  INFO 23020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:55:35:908  INFO 23020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5229 ms
+19:55:36:239  INFO 23020 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+19:55:39:980  INFO 23020 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
+19:55:42:077  INFO 23020 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+19:55:45:593  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f
+19:55:45:805  INFO 23020 --- [main] org.reflections.Reflections              : Reflections took 108 ms to scan 1 urls, producing 3 keys and 6 values 
+19:55:45:938  INFO 23020 --- [main] org.reflections.Reflections              : Reflections took 48 ms to scan 1 urls, producing 4 keys and 9 values 
+19:55:45:985  INFO 23020 --- [main] org.reflections.Reflections              : Reflections took 33 ms to scan 1 urls, producing 3 keys and 10 values 
+19:55:46:006  WARN 23020 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+19:55:46:048  INFO 23020 --- [main] org.reflections.Reflections              : Reflections took 39 ms to scan 1 urls, producing 1 keys and 5 values 
+19:55:46:102  INFO 23020 --- [main] org.reflections.Reflections              : Reflections took 38 ms to scan 1 urls, producing 1 keys and 7 values 
+19:55:46:153  INFO 23020 --- [main] org.reflections.Reflections              : Reflections took 37 ms to scan 1 urls, producing 2 keys and 8 values 
+19:55:46:167  WARN 23020 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+19:55:46:205  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] RpcClient init label, labels = {module=naming, source=sdk}
+19:55:46:211  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+19:55:46:211  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+19:55:46:213  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+19:55:46:217  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
+19:55:50:044  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727226009125_192.168.47.1_51647
+19:55:50:047  INFO 23020 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Notify connected event to listeners.
+19:55:50:052  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+19:55:50:054  INFO 23020 --- [main] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1114/0x00000008007bc440
+19:55:50:350  INFO 23020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+19:55:50:382  INFO 23020 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-api 192.168.43.135:8085 register finished
+19:55:50:651  INFO 12660 --- [nacos-grpc-client-executor-1390] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Receive server push request, request = NotifySubscriberRequest, requestId = 60
+19:55:50:652  INFO 12716 --- [nacos-grpc-client-executor-1388] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Receive server push request, request = NotifySubscriberRequest, requestId = 59
+19:55:50:680  INFO 12660 --- [nacos-grpc-client-executor-1390] com.alibaba.nacos.common.remote.client   : [5c4743ac-0e32-446f-bb0a-1e163183812c] Ack server push request, request = NotifySubscriberRequest, requestId = 60
+19:55:50:662  INFO 18020 --- [nacos-grpc-client-executor-1382] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Receive server push request, request = NotifySubscriberRequest, requestId = 58
+19:55:50:683  INFO 12716 --- [nacos-grpc-client-executor-1388] com.alibaba.nacos.common.remote.client   : [b473aab6-2abd-49f3-b30a-c262e5cd378a] Ack server push request, request = NotifySubscriberRequest, requestId = 59
+19:55:50:710  INFO 18020 --- [nacos-grpc-client-executor-1382] com.alibaba.nacos.common.remote.client   : [7e948b3c-aa5c-4804-b6f8-66946e942201] Ack server push request, request = NotifySubscriberRequest, requestId = 58
+19:55:50:741  INFO 23020 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Receive server push request, request = NotifySubscriberRequest, requestId = 57
+19:55:50:761  INFO 23020 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [5ef8acbf-318c-4e11-9c4c-d5f62fd1d79f] Ack server push request, request = NotifySubscriberRequest, requestId = 57
+19:55:52:480  INFO 23020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+19:55:52:488  INFO 23020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+19:55:52:528  INFO 23020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+19:55:52:667  INFO 23020 --- [main] com.hmall.trade.TradeServiceApplication  : Started TradeServiceApplication in 24.538 seconds (JVM running for 26.389)
+19:58:02:702  INFO 23020 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:58:02:704  INFO 23020 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+19:58:02:709  INFO 23020 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+19:59:11:715  INFO 23020 --- [http-nio-8085-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+19:59:13:154  INFO 23020 --- [http-nio-8085-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+19:59:13:192 DEBUG 23020 --- [http-nio-8085-exec-6] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+19:59:13:307 DEBUG 23020 --- [http-nio-8085-exec-6] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1654779387523936258(Long)
+19:59:13:472 DEBUG 23020 --- [http-nio-8085-exec-6] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
