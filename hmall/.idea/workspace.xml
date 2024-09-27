@@ -2,53 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c3b0e7-a5fc-4312-98b0-c042457ad5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/CartClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/dto/OrderFormDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/po/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/po/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/po/OrderLogistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/vo/OrderVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderLogisticsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderLogisticsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderLogisticsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade-service/src/test/java/com/hmall/trade/TradeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/TradeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayApplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayOrderFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/po/PayOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/vo/PayOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/mapper/PayOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/IPayOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/impl/PayOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay-service/src/test/java/com/hmall/pay/PayServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/ItemClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/ItemClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/item-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/ItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/ItemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/OrderDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/dto/OrderDetailDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/test/java/com/hmall/item/ItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/test/java/com/hmall/item/ItemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/ItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/ItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/dto/ItemDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/dto/OrderDetailDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/mapper/ItemMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/IItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/IItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/test-classes/com/hmall/item/ItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/test-classes/com/hmall/item/ItemApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/hm-api/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hm-api/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/test/java/com/hmall/pay/PayServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/TradeServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/TradeServiceApplication.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/hm-service/target/" />
@@ -89,10 +70,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderLogisticsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/impl/PayOrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,81 +82,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderDetailServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayApplyDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayOrderFormDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/po/PayOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1634">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1490#1491#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/pay-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1826">
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/resources/application.yaml">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderLogisticsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderDetailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="-176">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -183,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="374">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,11 +152,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pay-service/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/test/java/com/hmall/pay/PayServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/IPayOrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -223,19 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hm-service/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/dto/LoginFormDTO.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/vo/UserLoginVO.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/po/Address.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/enums/UserStatus.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/po/User.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/IAddressService.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/mapper/AddressMapper.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/config/JwtProperties.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/impl/AddressServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/utils/JwtTool.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/mapper/UserMapper.java" />
@@ -255,7 +217,6 @@
         <option value="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderMapper.java" />
         <option value="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderDetailMapper.java" />
         <option value="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/dto/OrderDetailDTO.java" />
-        <option value="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" />
         <option value="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/dto/OrderFormDTO.java" />
         <option value="$PROJECT_DIR$/item-service/pom.xml" />
         <option value="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" />
@@ -264,7 +225,6 @@
         <option value="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" />
         <option value="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/ItemApplication.java" />
         <option value="$PROJECT_DIR$/item-service/src/test/java/com/hmall/item/ItemApplication.java" />
-        <option value="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java" />
         <option value="$PROJECT_DIR$/trade-service/src/test/java/com/hmall/trade/TradeServiceApplicationTests.java" />
         <option value="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/hm-api/pom.xml" />
@@ -274,6 +234,21 @@
         <option value="$PROJECT_DIR$/cart-service/pom.xml" />
         <option value="$PROJECT_DIR$/trade-service/pom.xml" />
         <option value="$PROJECT_DIR$/pay-service/pom.xml" />
+        <option value="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayServiceApplication.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayApplyDTO.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/po/PayOrder.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/vo/PayOrderVO.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/IPayOrderService.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/mapper/PayOrderMapper.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayChannel.java" />
+        <option value="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" />
+        <option value="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/TradeClient.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/impl/PayOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/pay-service/src/test/java/com/hmall/pay/PayServiceApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -294,9 +269,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="543" />
+    <option name="y" value="129" />
     <option name="width" value="1290" />
     <option name="height" value="1377" />
   </component>
@@ -314,6 +289,135 @@
             <path>
               <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="hmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="cart-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="hm-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +481,115 @@
               <item name="pay-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
@@ -435,6 +647,63 @@
               <item name="hmall" type="462c0819:PsiDirectoryNode" />
               <item name="trade" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hmall" type="462c0819:PsiDirectoryNode" />
+              <item name="trade" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -447,7 +716,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -464,18 +733,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hmall.trade" />
-      <recent name="com.hmall.api.dto" />
-      <recent name="com.hmall.trade.domain.vo" />
-      <recent name="com.hmall.trade.controller" />
-      <recent name="com.hmall.user.service.impl" />
+      <recent name="com.hmall.pay" />
+      <recent name="com.hmall.pay.controller" />
+      <recent name="com.hmall.pay.mapper" />
+      <recent name="com.hmall.pay.service.impl" />
+      <recent name="com.hmall.pay.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\10\hmall\pay-service\src\main\java\com\hmall\pay\enums" />
+      <recent name="D:\Java\10\hmall\pay-service\src\main\java\com\hmall\pay\domain\dto" />
+      <recent name="D:\Java\10\hmall\pay-service\src\main\resources" />
       <recent name="D:\Java\10\hmall\trade-service\src\main\java\com\hmall\trade\mapper" />
       <recent name="D:\Java\10\hmall\trade-service\src\main\java\com\hmall\trade\service\impl" />
-      <recent name="D:\Java\10\hmall\trade-service\src\main\java\com\hmall\trade\domain\po" />
-      <recent name="D:\Java\10\hmall\trade-service\src\main\java\com\hmall\trade\domain\dto" />
-      <recent name="D:\Java\10\hmall\trade-service\src\main\java\com\hmall\trade\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,7 +765,7 @@
     </option>
     <option name="contentProportion" value="0.22498174" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TradeServiceApplication">
+  <component name="RunManager" selected="Spring Boot.PayServiceApplication">
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cart-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.cart.CartApplication" />
@@ -537,6 +806,8 @@
     <configuration name="PayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pay-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.pay.PayServiceApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -610,12 +881,12 @@
       <workItem from="1727344396899" duration="66000" />
       <workItem from="1727344487698" duration="171000" />
       <workItem from="1727344685174" duration="5079000" />
-      <workItem from="1727360203245" duration="1200000" />
+      <workItem from="1727360203245" duration="5728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107813000" />
+    <option name="totallyTimeSpent" value="112341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,9 +899,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="927" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.29491767" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.29491767" />
       <window_info id="Structure" order="1" sideWeight="0.5018868" side_tool="true" weight="0.28990695" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -651,7 +921,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.09234073" side_tool="true" weight="0.7572327" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32955974" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32955974" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.9076593" weight="0.50376886" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.9076593" weight="0.5031447" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -709,206 +979,6 @@
     <SUITE FILE_PATH="coverage/hmall$HMallApplication.ic" NAME="HMallApplication Coverage Results" MODIFIED="1726750075558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hm-service/src/main/java/com/hmall/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-service/src/main/java/com/hmall/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-service/src/main/java/com/hmall/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-service/src/main/java/com/hmall/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/dto/OrderDetailDTO.java" />
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/vo/OrderVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderLogisticsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/mapper/OrderDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart-service/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/ICartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/test/java/com/hmall/trade/TradeServiceApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/ItemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-service/src/test/java/com/hmall/service/impl/HutoolTest_20240311_152436.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-service/src/test/java/com/hmall/service/impl/ItemServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/utils/WebUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/src/test/java/com/hmall/item/ItemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/test/java/com/hmall/trade/TradeServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/po/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/po/OrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -962,38 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/CartClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/domain/dto/OrderFormDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1021,16 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderLogisticsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1047,18 +1075,6 @@
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1100,16 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trade-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1117,10 +1123,253 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/pay-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="105" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/resources/application-dev.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/resources/application-local.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/vo/PayOrderVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/mapper/PayOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayStatus.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/enums/PayChannel.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/CartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/impl/AddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="74" selection-start-line="33" selection-start-column="4" selection-end-line="34" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/TradeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/IPayOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pay-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="1826">
           <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/test/java/com/hmall/pay/PayServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/test/java/com/hmall/pay/PayServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/service/impl/PayOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayApplyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/dto/PayOrderFormDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/domain/po/PayOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1634">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

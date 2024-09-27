@@ -10,7 +10,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @MapperScan("com.hmall.trade.mapper")
 @SpringBootApplication
 public class TradeServiceApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(TradeServiceApplication.class, args);
     }
