@@ -16,7 +16,7 @@
     </content>
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:3.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-rsa:1.0.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.68" level="project" />
@@ -65,13 +65,6 @@
     <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.19.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.10.0" level="project" />
     <orderEntry type="module" module-name="hm-api" />
-    <orderEntry type="library" name="Maven: io.github.openfeign:feign-okhttp:11.8" level="project" />
-    <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:11.8" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:4.9.3" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:2.8.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.6.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:3.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.7.12" level="project" />
@@ -143,8 +136,17 @@
     <orderEntry type="library" name="Maven: io.prometheus:simpleclient_tracer_common:0.15.0" level="project" />
     <orderEntry type="library" name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.15.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.spring:spring-context-support:1.0.11" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:3.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:3.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:3.1.3" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:11.8" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:11.8" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign:feign-okhttp:11.10" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:4.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.7.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.7.12" level="project" />

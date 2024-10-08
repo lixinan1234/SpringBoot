@@ -1,315 +1,784 @@
-11:30:30:691  INFO 8152 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 8152 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
-11:30:30:697 DEBUG 8152 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-11:30:30:698  INFO 8152 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-11:30:31:833  INFO 8152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-11:30:31:837  INFO 8152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-11:30:31:882  INFO 8152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-11:30:32:163  INFO 8152 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1b259096-a7fd-3a4b-8358-b8fc7aa45ab6
-11:30:32:627  INFO 8152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-11:30:32:638  INFO 8152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-11:30:32:638  INFO 8152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-11:30:32:785  INFO 8152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-11:30:32:785  INFO 8152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2035 ms
-11:30:37:590  INFO 8152 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-11:30:38:067  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 3698a8df-7b53-4610-9fa7-3132b720bc19
-11:30:38:112  INFO 8152 --- [main] org.reflections.Reflections              : Reflections took 25 ms to scan 1 urls, producing 3 keys and 6 values 
-11:30:38:140  INFO 8152 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
-11:30:38:152  INFO 8152 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
-11:30:38:156  WARN 8152 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:30:38:164  INFO 8152 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
-11:30:38:175  INFO 8152 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
-11:30:38:187  INFO 8152 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
-11:30:38:189  WARN 8152 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:30:38:190  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] RpcClient init label, labels = {module=naming, source=sdk}
-11:30:38:192  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-11:30:38:192  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-11:30:38:192  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-11:30:38:194  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-11:30:40:266  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727184214947_192.168.47.1_62017
-11:30:40:269  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-11:30:40:268  INFO 8152 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Notify connected event to listeners.
-11:30:40:270  INFO 8152 --- [main] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1059/0x0000000800888040
-11:30:40:326  INFO 8152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-11:30:40:827  INFO 8152 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Receive server push request, request = NotifySubscriberRequest, requestId = 10
-11:30:40:829  INFO 8152 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Ack server push request, request = NotifySubscriberRequest, requestId = 10
-11:30:40:958  INFO 8152 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.135:8082 register finished
-11:30:40:959  INFO 8152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-11:30:40:962  INFO 8152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-11:30:40:991  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-11:30:41:092  INFO 8152 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 12.23 seconds (JVM running for 14.159)
-11:30:41:464  INFO 8152 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Receive server push request, request = NotifySubscriberRequest, requestId = 11
-11:30:41:466  INFO 8152 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Ack server push request, request = NotifySubscriberRequest, requestId = 11
-11:31:25:156  INFO 8152 --- [http-nio-8082-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:31:25:156  INFO 8152 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-11:31:25:158  INFO 8152 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-11:31:31:034  INFO 8152 --- [http-nio-8082-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-11:31:31:485  INFO 8152 --- [http-nio-8082-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-11:31:31:493 DEBUG 8152 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-11:31:31:518 DEBUG 8152 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
-11:31:31:553 DEBUG 8152 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
-11:31:32:155  INFO 8152 --- [nacos-grpc-client-executor-27] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Receive server push request, request = NotifySubscriberRequest, requestId = 12
-11:31:32:156  INFO 8152 --- [nacos-grpc-client-executor-27] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Ack server push request, request = NotifySubscriberRequest, requestId = 12
-11:31:33:792 DEBUG 8152 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-11:31:33:792 DEBUG 8152 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
-11:31:33:795 DEBUG 8152 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
-11:31:35:014 DEBUG 8152 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-11:31:35:015 DEBUG 8152 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
-11:31:35:018 DEBUG 8152 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
-11:31:35:518 DEBUG 8152 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-11:31:35:518 DEBUG 8152 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
-11:31:35:521 DEBUG 8152 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
-11:32:30:977  INFO 8152 --- [nacos-grpc-client-executor-42] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Receive server push request, request = NotifySubscriberRequest, requestId = 14
-11:32:30:980  INFO 8152 --- [nacos-grpc-client-executor-42] com.alibaba.nacos.common.remote.client   : [3698a8df-7b53-4610-9fa7-3132b720bc19] Ack server push request, request = NotifySubscriberRequest, requestId = 14
-12:43:45:413  INFO 5796 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 5796 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
-12:43:45:415 DEBUG 5796 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-12:43:45:416  INFO 5796 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-12:43:46:722  INFO 5796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-12:43:46:725  INFO 5796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-12:43:46:779  INFO 5796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
-12:43:47:084  INFO 5796 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7b090df3-ecaa-3d88-9930-6444b7a196e3
-12:43:47:158  INFO 5796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hmall.cart.client.ItemClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:43:47:576  INFO 5796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-12:43:47:587  INFO 5796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-12:43:47:589  INFO 5796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-12:43:47:764  INFO 5796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-12:43:47:764  INFO 5796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2292 ms
-12:43:48:032  WARN 5796 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-12:43:48:035  INFO 5796 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-12:43:48:056  INFO 5796 --- [main] ConditionEvaluationReportLoggingListener : 
+20:48:54:032  INFO 22868 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 22868 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
+20:48:54:045 DEBUG 22868 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+20:48:54:047  INFO 22868 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+20:48:56:983  INFO 22868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+20:48:56:986  INFO 22868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20:48:57:034  INFO 22868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+20:48:57:694  INFO 22868 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa2c9667-1a28-3f79-b52f-8370c3e5ad8e
+20:48:59:297  INFO 22868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+20:48:59:336  INFO 22868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+20:48:59:336  INFO 22868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+20:48:59:723  INFO 22868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+20:48:59:723  INFO 22868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5564 ms
+20:49:00:247  INFO 22868 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+20:49:10:887  INFO 22868 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+20:49:14:889  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 628fc295-f2ce-478f-bf2c-358b8c940708
+20:49:15:090  INFO 22868 --- [main] org.reflections.Reflections              : Reflections took 152 ms to scan 1 urls, producing 3 keys and 6 values 
+20:49:15:173  INFO 22868 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 4 keys and 9 values 
+20:49:15:209  INFO 22868 --- [main] org.reflections.Reflections              : Reflections took 24 ms to scan 1 urls, producing 3 keys and 10 values 
+20:49:15:220  WARN 22868 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+20:49:15:247  INFO 22868 --- [main] org.reflections.Reflections              : Reflections took 25 ms to scan 1 urls, producing 1 keys and 5 values 
+20:49:15:275  INFO 22868 --- [main] org.reflections.Reflections              : Reflections took 23 ms to scan 1 urls, producing 1 keys and 7 values 
+20:49:15:296  INFO 22868 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
+20:49:15:305  WARN 22868 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+20:49:15:308  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] RpcClient init label, labels = {module=naming, source=sdk}
+20:49:15:316  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+20:49:15:317  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:49:15:321  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:49:15:324  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Try to connect to server on start up, server: {serverIp = '192.168.47.131', server main port = 8848}
+20:49:20:392  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Success to connect to server [192.168.47.131:8848] on start up, connectionId = 1726246613714_172.17.0.1_55706
+20:49:20:393  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Notify connected event to listeners.
+20:49:20:393  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:49:20:394  INFO 22868 --- [main] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1130/0x00000008007fc440
+20:49:20:492  INFO 22868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+20:49:20:511  INFO 22868 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.135:8082 register finished
+20:49:20:959  INFO 22868 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Receive server push request, request = NotifySubscriberRequest, requestId = 78
+20:49:20:964  INFO 22868 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Ack server push request, request = NotifySubscriberRequest, requestId = 78
+20:49:21:614  INFO 22868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+20:49:21:619  INFO 22868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+20:49:21:668  INFO 22868 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+20:49:21:841  INFO 22868 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 30.865 seconds (JVM running for 33.413)
+20:52:01:287  INFO 22868 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:52:01:288  INFO 22868 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+20:52:01:290  INFO 22868 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+20:52:01:570  INFO 22868 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+20:52:02:034  INFO 22868 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+20:52:02:049 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+20:52:02:091 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 14741770661(Long)
+20:52:02:135 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+20:52:02:150 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.updateNum     : ==>  Preparing: UPDATE cart SET num = num + 1 WHERE user_id = ? AND item_id = ?
+20:52:02:151 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.updateNum     : ==> Parameters: 1(Long), 14741770661(Long)
+20:52:02:159 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.updateNum     : <==    Updates: 1
+20:52:03:045 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+20:52:03:046 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+20:52:03:056 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+20:52:03:154 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+20:52:03:154 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+20:52:03:465 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (310ms)
+20:52:03:465 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+20:52:03:465 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+20:52:03:466 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 12:52:03 GMT
+20:52:03:466 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+20:52:03:467 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+20:52:03:467 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+20:52:03:469 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+20:52:03:469 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (741-byte body)
+20:52:03:808  INFO 22868 --- [nacos-grpc-client-executor-49] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Receive server push request, request = NotifySubscriberRequest, requestId = 87
+20:52:03:809  INFO 22868 --- [nacos-grpc-client-executor-49] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Ack server push request, request = NotifySubscriberRequest, requestId = 87
+20:53:04:372 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+20:53:04:374 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 14741770661(Long)
+20:53:04:376 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+20:53:04:377 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.updateNum     : ==>  Preparing: UPDATE cart SET num = num + 1 WHERE user_id = ? AND item_id = ?
+20:53:04:378 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.updateNum     : ==> Parameters: 1(Long), 14741770661(Long)
+20:53:04:385 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.updateNum     : <==    Updates: 1
+20:53:04:727 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+20:53:04:728 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+20:53:04:735 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+20:53:04:739 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+20:53:04:739 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+20:53:04:780 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (40ms)
+20:53:04:780 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+20:53:04:780 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+20:53:04:782 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 12:53:04 GMT
+20:53:04:782 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+20:53:04:782 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+20:53:04:782 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+20:53:04:783 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+20:53:04:783 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (741-byte body)
+20:53:22:449 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+20:53:22:452 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: null, 14741770661(Long)
+20:53:22:455 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+20:53:32:885 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+20:53:32:886 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+20:53:32:892 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+20:53:32:894 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+20:53:32:894 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+20:53:32:925 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (31ms)
+20:53:32:926 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+20:53:32:926 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+20:53:32:926 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 12:53:32 GMT
+20:53:32:927 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+20:53:32:927 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+20:53:32:927 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+20:53:32:928 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+20:53:32:928 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+20:53:34:692 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+20:53:34:693 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+20:53:34:696 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+20:53:34:698 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+20:53:34:698 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+20:53:34:710 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (12ms)
+20:53:34:710 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+20:53:34:710 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+20:53:34:710 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 12:53:34 GMT
+20:53:34:711 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+20:53:34:711 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+20:53:34:711 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+20:53:34:711 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+20:53:34:712 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:09:21:334 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:09:21:335 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:09:21:337 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:09:21:339 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:09:21:339 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (14ms)
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:09:21 GMT
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:09:21:354 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:09:21:356 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:09:21:356 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:09:24:663 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:09:24:664 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:09:24:667 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:09:24:668 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:09:24:668 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:09:24:684 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (16ms)
+21:09:24:685 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:09:24:685 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:09:24:685 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:09:24 GMT
+21:09:24:686 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:09:24:686 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:09:24:686 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:09:24:686 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:09:24:687 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:09:26:307 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:09:26:309 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:09:26:313 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:09:26:315 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:09:26:316 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:09:26:331 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (15ms)
+21:09:26:331 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:09:26:331 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:09:26:332 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:09:26 GMT
+21:09:26:332 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:09:26:332 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:09:26:332 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:09:26:332 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:09:26:332 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:09:27:582 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:09:27:582 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:09:27:589 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:09:27:593 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:09:27:593 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (9ms)
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:09:27 GMT
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:09:27:603 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:10:52:238 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:10:52:240 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:10:52:241 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:10:52:243 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:10:52:243 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (13ms)
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:10:52 GMT
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:10:52:257 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:10:52:258 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:01:324 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:01:325 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:01:329 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:01:330 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:01:330 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (35ms)
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:01 GMT
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:01:366 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:01:367 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:16:328 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:16:329 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:16:331 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:16:333 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:16:334 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:16:341 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (8ms)
+21:11:16:341 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:16:342 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:16:342 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:16 GMT
+21:11:16:342 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:16:342 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:16:342 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:16:342 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:16:343 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:29:744 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:29:745 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:29:747 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:29:748 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:29:748 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:29:759 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (9ms)
+21:11:29:759 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:29:759 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:29:759 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:29 GMT
+21:11:29:760 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:29:760 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:29:760 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:29:760 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:29:760 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:38:922 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:11:38:924 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 10(Long)
+21:11:38:940 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:11:38:961 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:38:961 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:38:964 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:38:966 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:38:966 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:38:977 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+21:11:38:977 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:38:977 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:38:977 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:38 GMT
+21:11:38:977 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:38:977 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:38:978 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:38:978 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:38:978 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:39:386 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:11:39:386 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 1(Integer), 10(Long)
+21:11:39:396 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:11:39:413 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:39:414 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:39:418 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:39:421 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:39:421 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:39:429 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (8ms)
+21:11:39:429 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:39:430 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:39:430 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:38 GMT
+21:11:39:430 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:39:430 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:39:430 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:39:430 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:39:431 DEBUG 22868 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:40:998 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:11:40:999 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 10(Long)
+21:11:41:017 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:11:41:040 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:41:040 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:41:043 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:41:044 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:41:044 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:41:056 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+21:11:41:056 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:41:056 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:41:056 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:41 GMT
+21:11:41:056 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:41:057 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:41:057 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:41:057 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:41:057 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:41:206 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:11:41:206 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 3(Integer), 10(Long)
+21:11:41:216 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:11:41:243 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:41:243 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:41:245 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:41:247 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:41:247 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (8ms)
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:41 GMT
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:41:256 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:41:257 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:42:104 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:11:42:105 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 10(Long)
+21:11:42:110 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:11:42:130 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:42:130 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:42:132 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:42:133 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:42:134 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:42:144 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (10ms)
+21:11:42:144 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:42:144 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:42:144 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:42 GMT
+21:11:42:145 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:42:145 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:42:145 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:42:145 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:42:145 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:42:285 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:11:42:286 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 1(Integer), 10(Long)
+21:11:42:291 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:11:42:311 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:42:311 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:42:313 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:42:316 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:42:316 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:42:326 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (9ms)
+21:11:42:326 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:42:326 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:42:327 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:42 GMT
+21:11:42:327 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:42:327 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:42:327 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:42:327 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:42:327 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:11:49:307 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:11:49:309 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:11:49:311 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:11:49:312 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:11:49:312 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (9ms)
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:11:49 GMT
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:11:49:322 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:11:49:323 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:12:00:372 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+21:12:00:372 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 14741770661(Long)
+21:12:00:374 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:12:00:375 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.updateNum     : ==>  Preparing: UPDATE cart SET num = num + 1 WHERE user_id = ? AND item_id = ?
+21:12:00:375 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.updateNum     : ==> Parameters: 1(Long), 14741770661(Long)
+21:12:00:381 DEBUG 22868 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.updateNum     : <==    Updates: 1
+21:12:00:545 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:12:00:546 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:12:00:548 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:12:00:549 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=14741770661 HTTP/1.1
+21:12:00:549 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:12:00:556 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (8ms)
+21:12:00:556 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:12:00:556 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:12:00:556 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:12:00 GMT
+21:12:00:558 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:12:00:558 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:12:00:558 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:12:00:558 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:12:00:558 DEBUG 22868 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (740-byte body)
+21:12:04:376 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+21:12:04:377 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 2120808(Long)
+21:12:04:378 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:12:04:382 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+21:12:04:382 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+21:12:04:385 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:12:04:393 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+21:12:04:394 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 2120808(Long), 姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色(String), {}(String), 71800(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp(String)
+21:12:04:402 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+21:12:04:555 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:12:04:555 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:12:04:560 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 3
+21:12:04:561 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=2120808&ids=14741770661 HTTP/1.1
+21:12:04:561 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:12:04:570 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (8ms)
+21:12:04:570 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:12:04:570 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:12:04:570 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:12:04 GMT
+21:12:04:570 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:12:04:571 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:12:04:571 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:12:04:571 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"2120808","name":"姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色","price":71800,"stock":1,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp","category":"真皮包","brand":"姬龙雪","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:12:04:571 DEBUG 22868 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (1141-byte body)
+21:12:11:147 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:12:11:147 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 1(Integer), 10(Long)
+21:12:11:163 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:12:11:183 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:12:11:184 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:12:11:186 DEBUG 22868 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 3
+21:12:11:188 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=2120808&ids=14741770661 HTTP/1.1
+21:12:11:188 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:12:11:198 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (10ms)
+21:12:11:198 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:12:11:199 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:12:11:199 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:12:11 GMT
+21:12:11:199 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:12:11:199 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:12:11:199 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:12:11:199 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"2120808","name":"姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色","price":71800,"stock":1,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp","category":"真皮包","brand":"姬龙雪","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:12:11:200 DEBUG 22868 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (1141-byte body)
+21:12:12:777 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+21:12:12:779 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 10(Long)
+21:12:12:794 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+21:12:12:815 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:12:12:815 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:12:12:818 DEBUG 22868 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 3
+21:12:12:819 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100000006163&ids=2120808&ids=14741770661 HTTP/1.1
+21:12:12:819 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:12:12:831 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+21:12:12:831 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:12:12:831 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:12:12:832 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:12:12 GMT
+21:12:12:832 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:12:12:832 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:12:12:832 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:12:12:832 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"2120808","name":"姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色","price":71800,"stock":1,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp","category":"真皮包","brand":"姬龙雪","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:12:12:832 DEBUG 22868 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (1141-byte body)
+21:12:21:366 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+21:12:21:368 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 40305713537(Long)
+21:12:21:370 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:12:21:371 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+21:12:21:372 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+21:12:21:374 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:12:21:375 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+21:12:21:376 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 40305713537(Long), 【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41(String), {"颜色": "金色", "尺码": "41"}(String), 35400(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp(String)
+21:12:21:383 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+21:12:21:603 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:12:21:603 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:12:21:606 DEBUG 22868 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 4
+21:12:21:607 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=100000006163&ids=2120808&ids=14741770661 HTTP/1.1
+21:12:21:607 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:12:21:619 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+21:12:21:619 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:12:21:619 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:12:21:619 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:12:21 GMT
+21:12:21:620 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:12:21:620 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:12:21:620 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:12:21:620 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"2120808","name":"姬龙雪 guy laroche女包 GL经典手提包女牛皮大容量单肩包女欧美时尚包包女包GS1210001-06杏色","price":71800,"stock":1,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t30694/267/398774087/90954/6fc143cf/5bf25358N14dadbf7.jpg!q70.jpg.webp","category":"真皮包","brand":"姬龙雪","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:12:21:620 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (1633-byte body)
+21:13:32:149 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.deleteById    : ==>  Preparing: DELETE FROM cart WHERE id=?
+21:13:32:150 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.deleteById    : ==> Parameters: 11(Long)
+21:13:32:155 DEBUG 22868 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.deleteById    : <==    Updates: 1
+21:13:32:174 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:13:32:175 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:13:32:177 DEBUG 22868 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 3
+21:13:32:179 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=100000006163&ids=14741770661 HTTP/1.1
+21:13:32:179 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:13:32:192 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (13ms)
+21:13:32:192 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:13:32:192 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:13:32:193 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:13:32 GMT
+21:13:32:193 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:13:32:193 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:13:32:193 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:13:32:193 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100000006163","name":"巴布豆(BOBDOG)柔薄悦动婴儿拉拉裤XXL码80片(15kg以上)","price":67100,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t23998/350/2363990466/222391/a6e9581d/5b7cba5bN0c18fb4f.jpg!q70.jpg.webp","category":"拉拉裤","brand":"巴布豆","spec":"{}","sold":11,"commentCount":33343434,"isAD":false,"status":2}]
+21:13:32:193 DEBUG 22868 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (1232-byte body)
+21:13:34:072 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.deleteById    : ==>  Preparing: DELETE FROM cart WHERE id=?
+21:13:34:073 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.deleteById    : ==> Parameters: 7(Long)
+21:13:34:089 DEBUG 22868 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.deleteById    : <==    Updates: 1
+21:13:34:108 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:13:34:109 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:13:34:112 DEBUG 22868 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:13:34:113 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=14741770661 HTTP/1.1
+21:13:34:113 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:13:34:124 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (10ms)
+21:13:34:124 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:13:34:124 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:13:34:125 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 13:13:34 GMT
+21:13:34:125 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:13:34:125 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:13:34:125 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:13:34:125 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+21:13:34:125 DEBUG 22868 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (862-byte body)
+21:51:31:335 ERROR 22868 --- [nacos-grpc-client-executor-768] c.a.n.c.remote.client.grpc.GrpcClient    : [1726246613714_172.17.0.1_55706]Request stream error, switch server,error={}
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-12:43:48:091 ERROR 5796 --- [main] o.s.boot.SpringApplication               : Application run failed
+com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:533) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:442) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusStatsModule$StatsClientInterceptor$1$1.onClose(CensusStatsModule.java:700) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusTracingModule$TracingClientInterceptor$1$1.onClose(CensusTracingModule.java:399) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:510) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:66) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:630) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:518) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:692) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:681) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123) ~[nacos-client-2.0.4.jar:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[na:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[nacos-client-2.0.4.jar:na]
+	... 1 common frames omitted
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
-	at com.hmall.cart.CartApplication.main(CartApplication.java:15) ~[classes/:na]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
-	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1898) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1284) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1616) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1573) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
-	... 33 common frames omitted
-Caused by: java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.cloud.openfeign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:241) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:267) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:247) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.3.27.jar:5.3.27]
-	... 45 common frames omitted
+21:53:24:418  WARN 22868 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m21s379ms67µs200ns).
+21:53:25:687  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Server healthy check fail, currentConnection = 1726246613714_172.17.0.1_55706
+21:53:25:687  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:53:28:725 ERROR 22868 --- [com.alibaba.nacos.client.remote.worker] c.a.n.c.remote.client.grpc.GrpcClient    : Server check fail, please check server 192.168.47.131 ,port 9848 is available , error ={}
 
-13:08:49:861  INFO 2384 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 2384 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
-13:08:49:863 DEBUG 2384 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-13:08:49:864  INFO 2384 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-13:08:50:810  INFO 2384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-13:08:50:812  INFO 2384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-13:08:50:839  INFO 2384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-13:08:51:077  INFO 2384 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7b090df3-ecaa-3d88-9930-6444b7a196e3
-13:08:51:135  INFO 2384 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hmall.cart.client.ItemClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-13:08:51:453  INFO 2384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-13:08:51:462  INFO 2384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-13:08:51:463  INFO 2384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-13:08:51:610  INFO 2384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-13:08:51:610  INFO 2384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1699 ms
-13:08:51:817  WARN 2384 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-13:08:51:820  INFO 2384 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-13:08:51:837  INFO 2384 --- [main] ConditionEvaluationReportLoggingListener : 
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 32 milliseconds, 254100 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@702ace6f[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@19e95a6d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@27cc146d, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@256932e6}}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:522) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:370) ~[nacos-client-2.0.4.jar:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-13:08:51:868 ERROR 2384 --- [main] o.s.boot.SpringApplication               : Application run failed
+21:53:31:874 ERROR 22868 --- [com.alibaba.nacos.client.remote.worker] c.a.n.c.remote.client.grpc.GrpcClient    : Server check fail, please check server 192.168.47.131 ,port 9848 is available , error ={}
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
-	at com.hmall.cart.CartApplication.main(CartApplication.java:15) ~[classes/:na]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\Java\10\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
-	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hmall.cart.client.ItemClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1898) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1284) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1616) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1573) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.27.jar:5.3.27]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.27.jar:5.3.27]
-	... 33 common frames omitted
-Caused by: java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-netflix-ribbon?
-	at org.springframework.cloud.openfeign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:241) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:267) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:247) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.3.27.jar:5.3.27]
-	... 45 common frames omitted
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 2 milliseconds, 649700 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@7f02f4b7[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@19e95a6d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@27cc146d, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@256932e6}}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:522) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:370) ~[nacos-client-2.0.4.jar:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
-13:18:10:926  INFO 19864 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 19864 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
-13:18:10:928 DEBUG 19864 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-13:18:10:928  INFO 19864 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-13:18:11:931  INFO 19864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-13:18:11:934  INFO 19864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-13:18:11:961  INFO 19864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-13:18:12:211  INFO 19864 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f0d8a8f2-b903-3617-9de7-20364bd148f8
-13:18:12:598  INFO 19864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-13:18:12:608  INFO 19864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-13:18:12:609  INFO 19864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-13:18:12:757  INFO 19864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-13:18:12:758  INFO 19864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1784 ms
-13:18:12:963  INFO 19864 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
-13:18:15:747  INFO 19864 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-13:18:16:926  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 86c30d8d-602e-46c1-8d63-14f8f9298a9b
-13:18:16:971  INFO 19864 --- [main] org.reflections.Reflections              : Reflections took 25 ms to scan 1 urls, producing 3 keys and 6 values 
-13:18:17:013  INFO 19864 --- [main] org.reflections.Reflections              : Reflections took 25 ms to scan 1 urls, producing 4 keys and 9 values 
-13:18:17:025  INFO 19864 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
-13:18:17:027  WARN 19864 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-13:18:17:037  INFO 19864 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
-13:18:17:048  INFO 19864 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
-13:18:17:060  INFO 19864 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
-13:18:17:062  WARN 19864 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-13:18:17:063  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] RpcClient init label, labels = {module=naming, source=sdk}
-13:18:17:066  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-13:18:17:067  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-13:18:17:067  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-13:18:17:068  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-13:18:19:164  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727191211972_192.168.47.1_51457
-13:18:19:167  INFO 19864 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Notify connected event to listeners.
-13:18:19:170  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-13:18:19:174  INFO 19864 --- [main] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1114/0x00000008007a2c40
-13:18:19:261  INFO 19864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-13:18:19:271  INFO 19864 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.135:8082 register finished
-13:18:19:714  INFO 19864 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Receive server push request, request = NotifySubscriberRequest, requestId = 18
-13:18:19:718  INFO 19864 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Ack server push request, request = NotifySubscriberRequest, requestId = 18
-13:18:19:908  INFO 19864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-13:18:19:911  INFO 19864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-13:18:19:940  INFO 19864 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-13:18:20:054  INFO 19864 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 10.802 seconds (JVM running for 13.019)
-13:19:30:165  INFO 19864 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-13:19:30:165  INFO 19864 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-13:19:30:167  INFO 19864 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-13:19:34:934  INFO 19864 --- [http-nio-8082-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-13:19:35:487  INFO 19864 --- [http-nio-8082-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-13:19:35:498 DEBUG 19864 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-13:19:35:530 DEBUG 19864 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
-13:19:35:565 DEBUG 19864 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
-13:19:36:350  INFO 19864 --- [nacos-grpc-client-executor-32] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Receive server push request, request = NotifySubscriberRequest, requestId = 19
-13:19:36:354  INFO 19864 --- [nacos-grpc-client-executor-32] com.alibaba.nacos.common.remote.client   : [86c30d8d-602e-46c1-8d63-14f8f9298a9b] Ack server push request, request = NotifySubscriberRequest, requestId = 19
-13:19:37:699 DEBUG 19864 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-13:19:37:699 DEBUG 19864 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
-13:19:37:703 DEBUG 19864 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
-16:51:32:169  INFO 20504 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 20504 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
-16:51:32:181 DEBUG 20504 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-16:51:32:181  INFO 20504 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
-16:51:33:164  INFO 20504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-16:51:33:167  INFO 20504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-16:51:33:193  INFO 20504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-16:51:33:453  INFO 20504 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=634b4e91-a2ea-3cf3-8bb2-192ca61bd55e
-16:51:33:877  INFO 20504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-16:51:33:887  INFO 20504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-16:51:33:888  INFO 20504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-16:51:34:034  INFO 20504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-16:51:34:034  INFO 20504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1801 ms
-16:51:34:252  INFO 20504 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
-16:51:37:187  INFO 20504 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-16:51:38:273  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of b00cf07c-1359-4a96-96cb-d27e8fa48545
-16:51:38:321  INFO 20504 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
-16:51:38:348  INFO 20504 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
-16:51:38:361  INFO 20504 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
-16:51:38:365  WARN 20504 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-16:51:38:373  INFO 20504 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
-16:51:38:384  INFO 20504 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
-16:51:38:397  INFO 20504 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
-16:51:38:400  WARN 20504 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-16:51:38:401  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] RpcClient init label, labels = {module=naming, source=sdk}
-16:51:38:404  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-16:51:38:404  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-16:51:38:404  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-16:51:38:406  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Try to connect to server on start up, server: {serverIp = '192.168.47.132', server main port = 8848}
-16:51:40:542  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Success to connect to server [192.168.47.132:8848] on start up, connectionId = 1727192861771_192.168.47.1_65194
-16:51:40:543  INFO 20504 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Notify connected event to listeners.
-16:51:40:544  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-16:51:40:545  INFO 20504 --- [main] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1127/0x0000000800834840
-16:51:40:611  INFO 20504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-16:51:40:622  INFO 20504 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.135:8082 register finished
-16:51:41:036  INFO 20504 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Receive server push request, request = NotifySubscriberRequest, requestId = 23
-16:51:41:039  INFO 20504 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b00cf07c-1359-4a96-96cb-d27e8fa48545] Ack server push request, request = NotifySubscriberRequest, requestId = 23
-16:51:41:199  INFO 20504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-16:51:41:203  INFO 20504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-16:51:41:234  INFO 20504 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-16:51:41:355  INFO 20504 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 10.576 seconds (JVM running for 11.96)
+21:53:31:875  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Fail to connect server, after trying 1 times, last try server is {serverIp = '192.168.47.131', server main port = 8848}, error = unknown
+21:53:35:098 ERROR 22868 --- [com.alibaba.nacos.client.remote.worker] c.a.n.c.remote.client.grpc.GrpcClient    : Server check fail, please check server 192.168.47.131 ,port 9848 is available , error ={}
+
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 7 milliseconds, 272400 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@64b199e9[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@19e95a6d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@27cc146d, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@256932e6}}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:522) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:370) ~[nacos-client-2.0.4.jar:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+21:53:35:099  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Fail to connect server, after trying 2 times, last try server is {serverIp = '192.168.47.131', server main port = 8848}, error = unknown
+21:53:35:533  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Success to connect a server [192.168.47.131:8848], connectionId = 1726250669620_172.17.0.1_56140
+21:53:35:533  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Abandon prev connection, server is 192.168.47.131:8848, connectionId is 1726246613714_172.17.0.1_55706
+21:53:35:534  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1726246613714_172.17.0.1_55706
+21:53:35:535  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:53:35:535  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Notify disconnected event to listeners
+21:53:35:543  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Notify connected event to listeners.
+21:53:35:674  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Success to connect a server [192.168.47.131:8848], connectionId = 1726250669777_172.17.0.1_56142
+21:53:35:674  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Abandon prev connection, server is 192.168.47.131:8848, connectionId is 1726250669620_172.17.0.1_56140
+21:53:35:675  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1726250669620_172.17.0.1_56140
+21:53:35:677  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Notify disconnected event to listeners
+21:53:35:678  INFO 22868 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Notify connected event to listeners.
+21:53:35:680  WARN 22868 --- [nacos-grpc-client-executor-779] c.a.n.c.remote.client.grpc.GrpcClient    : [1726250669620_172.17.0.1_56140]Ignore error event,isRunning:true,isAbandon=true
+21:53:36:618  INFO 22868 --- [nacos-grpc-client-executor-783] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Receive server push request, request = NotifySubscriberRequest, requestId = 118
+21:53:36:619  INFO 22868 --- [nacos-grpc-client-executor-783] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Ack server push request, request = NotifySubscriberRequest, requestId = 118
+21:53:36:628  INFO 22868 --- [nacos-grpc-client-executor-784] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Receive server push request, request = NotifySubscriberRequest, requestId = 117
+21:53:36:628  INFO 22868 --- [nacos-grpc-client-executor-784] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Ack server push request, request = NotifySubscriberRequest, requestId = 117
+21:53:41:673  INFO 22868 --- [nacos-grpc-client-executor-785] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Receive server push request, request = NotifySubscriberRequest, requestId = 137
+21:53:41:673  INFO 22868 --- [nacos-grpc-client-executor-785] com.alibaba.nacos.common.remote.client   : [628fc295-f2ce-478f-bf2c-358b8c940708] Ack server push request, request = NotifySubscriberRequest, requestId = 137
+22:15:17:259  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e7b8197 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:261  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37a0b57b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:265  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@413c668b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:267  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63692002 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:269  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61f279aa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:272  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@53cb0382 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:276  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@296f65b7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:277  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2233a40b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:281  WARN 22868 --- [http-nio-8082-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a50f45c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+22:15:17:282 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+22:15:17:282 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+22:15:17:286 DEBUG 22868 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+22:15:17:287 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=14741770661 HTTP/1.1
+22:15:17:287 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (87ms)
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 14:15:17 GMT
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+22:15:17:375 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+22:15:17:376 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+22:15:17:376 DEBUG 22868 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (862-byte body)
+22:50:05:138 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+22:50:05:139 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+22:50:05:141 DEBUG 22868 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+22:50:05:144 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=14741770661 HTTP/1.1
+22:50:05:144 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+22:50:05:161 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (17ms)
+22:50:05:161 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+22:50:05:161 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+22:50:05:161 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 14:50:05 GMT
+22:50:05:162 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+22:50:05:162 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+22:50:05:162 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+22:50:05:162 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+22:50:05:162 DEBUG 22868 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (862-byte body)
+22:50:57:404 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?,?))
+22:50:57:405 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: null, 40305713537(Long), 14741770661(Long)
+22:50:57:407 DEBUG 22868 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+23:09:25:292  WARN 22868 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+23:09:25:292  WARN 22868 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+23:09:25:293  WARN 22868 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+23:09:25:294  WARN 22868 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+23:09:25:929  INFO 22868 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+23:09:25:932  INFO 22868 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+23:09:26:270  INFO 22868 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+23:09:26:270  INFO 22868 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@2736daa9[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+23:09:26:270  INFO 22868 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1726250669777_172.17.0.1_56142
+23:09:26:274  INFO 22868 --- [nacos-grpc-client-executor-1774] c.a.n.c.remote.client.grpc.GrpcClient    : [1726250669777_172.17.0.1_56142]Ignore complete event,isRunning:false,isAbandon=false
+23:09:26:276  INFO 22868 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5dd10670[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 1775]
+23:09:26:290  INFO 22868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:09:26:305  INFO 22868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:09:32:034  INFO 24864 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 24864 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
+23:09:32:037 DEBUG 24864 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:09:32:037  INFO 24864 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:09:33:044  INFO 24864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:09:33:047  INFO 24864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:09:33:088  INFO 24864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+23:09:33:350  INFO 24864 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa2c9667-1a28-3f79-b52f-8370c3e5ad8e
+23:09:33:740  INFO 24864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+23:09:33:751  INFO 24864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:09:33:751  INFO 24864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:09:33:901  INFO 24864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:09:33:901  INFO 24864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1818 ms
+23:09:34:124  INFO 24864 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+23:09:37:094  INFO 24864 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:09:38:252  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 86410cfd-b43d-473e-a281-cd9ce9d77a26
+23:09:38:302  INFO 24864 --- [main] org.reflections.Reflections              : Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
+23:09:38:330  INFO 24864 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+23:09:38:342  INFO 24864 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+23:09:38:345  WARN 24864 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+23:09:38:354  INFO 24864 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+23:09:38:367  INFO 24864 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+23:09:38:379  INFO 24864 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+23:09:38:381  WARN 24864 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+23:09:38:382  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] RpcClient init label, labels = {module=naming, source=sdk}
+23:09:38:384  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+23:09:38:384  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+23:09:38:385  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+23:09:38:386  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Try to connect to server on start up, server: {serverIp = '192.168.47.131', server main port = 8848}
+23:09:40:502  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Success to connect to server [192.168.47.131:8848] on start up, connectionId = 1726255614820_172.17.0.1_56442
+23:09:40:504  INFO 24864 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Notify connected event to listeners.
+23:09:40:507  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+23:09:40:510  INFO 24864 --- [main] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1129/0x0000000800824c40
+23:09:40:589  INFO 24864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+23:09:40:598  INFO 24864 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.135:8082 register finished
+23:09:41:107  INFO 24864 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Receive server push request, request = NotifySubscriberRequest, requestId = 154
+23:09:41:110  INFO 24864 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [86410cfd-b43d-473e-a281-cd9ce9d77a26] Ack server push request, request = NotifySubscriberRequest, requestId = 154
+23:09:41:223  INFO 24864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:09:41:226  INFO 24864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:09:41:253  INFO 24864 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:09:41:351  INFO 24864 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 10.962 seconds (JVM running for 12.485)
+23:09:51:815  INFO 15004 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.1 on 工藤新一 with PID 15004 (D:\Java\10\hmall\cart-service\target\classes started by 李新安 in D:\Java\10\hmall)
+23:09:51:818 DEBUG 15004 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:09:51:818  INFO 15004 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:09:52:875  INFO 15004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:09:52:878  INFO 15004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:09:52:903  INFO 15004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+23:09:53:173  INFO 15004 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa2c9667-1a28-3f79-b52f-8370c3e5ad8e
+23:09:53:601  INFO 15004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+23:09:53:613  INFO 15004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:09:53:614  INFO 15004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:09:53:801  INFO 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:09:53:801  INFO 15004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1932 ms
+23:09:54:054  INFO 15004 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+23:09:57:126  INFO 15004 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:09:58:498  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 64754291-289d-4fdd-b27a-551bac45b176
+23:09:58:545  INFO 15004 --- [main] org.reflections.Reflections              : Reflections took 27 ms to scan 1 urls, producing 3 keys and 6 values 
+23:09:58:574  INFO 15004 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+23:09:58:586  INFO 15004 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+23:09:58:590  WARN 15004 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+23:09:58:598  INFO 15004 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+23:09:58:611  INFO 15004 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+23:09:58:623  INFO 15004 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+23:09:58:626  WARN 15004 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+23:09:58:626  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] RpcClient init label, labels = {module=naming, source=sdk}
+23:09:58:629  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+23:09:58:629  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+23:09:58:630  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+23:09:58:631  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Try to connect to server on start up, server: {serverIp = '192.168.47.131', server main port = 8848}
+23:10:00:867  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Success to connect to server [192.168.47.131:8848] on start up, connectionId = 1726255636875_172.17.0.1_56444
+23:10:00:871  INFO 15004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Notify connected event to listeners.
+23:10:00:876  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+23:10:00:879  INFO 15004 --- [main] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1129/0x00000008007fcc40
+23:10:00:953  INFO 15004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+23:10:00:964  INFO 15004 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.135:8082 register finished
+23:10:01:486  INFO 15004 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Receive server push request, request = NotifySubscriberRequest, requestId = 158
+23:10:01:488  INFO 15004 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Ack server push request, request = NotifySubscriberRequest, requestId = 158
+23:10:01:602  INFO 15004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:10:01:605  INFO 15004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:10:01:634  INFO 15004 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:10:01:738  INFO 15004 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 11.644 seconds (JVM running for 13.267)
+23:10:49:494  INFO 15004 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:10:49:494  INFO 15004 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:10:49:496  INFO 15004 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+23:10:49:673  INFO 15004 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:10:50:044  INFO 15004 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:10:50:053 DEBUG 15004 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:10:50:082 DEBUG 15004 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:10:50:118 DEBUG 15004 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+23:10:50:208 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=14741770661 HTTP/1.1
+23:10:50:209 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+23:10:50:209 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+23:10:50:482 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (272ms)
+23:10:50:482 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+23:10:50:483 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+23:10:50:483 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 15:10:50 GMT
+23:10:50:483 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+23:10:50:484 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+23:10:50:484 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+23:10:50:485 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9995,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":9999,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+23:10:50:486 DEBUG 15004 --- [http-nio-8082-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (861-byte body)
+23:10:50:878  INFO 15004 --- [nacos-grpc-client-executor-24] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Receive server push request, request = NotifySubscriberRequest, requestId = 159
+23:10:50:879  INFO 15004 --- [nacos-grpc-client-executor-24] com.alibaba.nacos.common.remote.client   : [64754291-289d-4fdd-b27a-551bac45b176] Ack server push request, request = NotifySubscriberRequest, requestId = 159
+23:10:51:485 DEBUG 15004 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:10:51:486 DEBUG 15004 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:10:51:488 DEBUG 15004 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+23:10:51:490 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=40305713537&ids=14741770661 HTTP/1.1
+23:10:51:490 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+23:10:51:490 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (12ms)
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Tue, 08 Oct 2024 15:10:51 GMT
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+23:10:51:504 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+23:10:51:505 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"14741770661","name":"康佳（KONKA） LED49UC3 49英寸超薄曲面36核4K HDR人工智能电视","price":144600,"stock":9995,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t16477/84/2032772431/400946/2887be91/5a912776N7e343ec3.jpg!q70.jpg.webp","category":"曲面电视","brand":"康佳","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"40305713537","name":"【官方正品 品牌直营】奥古狮登小白鞋女秋季透气2018新款百搭韩版休闲鞋运动鞋女鞋厚底板鞋女 浅蓝【厚底】 41","price":35400,"stock":9999,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/14147/34/2890/275451/5c225484Ebd346404/e61513be4639ee2e.jpg!q70.jpg.webp","category":"休闲鞋","brand":"奥古狮登","spec":"{\"颜色\": \"金色\", \"尺码\": \"41\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+23:10:51:505 DEBUG 15004 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (861-byte body)
+23:11:20:392 DEBUG 15004 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?,?))
+23:11:20:396 DEBUG 15004 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 40305713537(Long), 14741770661(Long)
+23:11:20:404 DEBUG 15004 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 2
+23:12:04:796 DEBUG 15004 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:12:04:797 DEBUG 15004 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:12:04:799 DEBUG 15004 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:16:54:307  WARN 15004 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+23:16:54:307  WARN 15004 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+23:16:54:309  WARN 15004 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+23:16:54:309  WARN 15004 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+23:16:55:360  INFO 15004 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+23:16:55:368  INFO 15004 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+23:16:55:696  INFO 15004 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+23:16:55:696  INFO 15004 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4a80729c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+23:16:55:696  INFO 15004 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1726255636875_172.17.0.1_56444
+23:16:55:698  INFO 15004 --- [nacos-grpc-client-executor-102] c.a.n.c.remote.client.grpc.GrpcClient    : [1726255636875_172.17.0.1_56444]Ignore complete event,isRunning:false,isAbandon=false
+23:16:55:703  INFO 15004 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@40cb03a6[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 103]
+23:16:55:709  INFO 15004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:16:55:722  INFO 15004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -19,7 +19,7 @@ public class UserInfoInterceptor implements HandlerInterceptor {
         // 1.获取请求头中的用户信息
         String userInfo = request.getHeader("user-info");
         // 2.判断是否为空
-        if (StrUtil.isNotBlank(userInfo)) {
+        if (StrUtil.isNotBlank(userInfo)) {//StrUtil.isNotBlank：糊涂包里的，判断是否为null，是否为空字符串
             // 不为空，保存到ThreadLocal
             UserContext.setUser(Long.valueOf(userInfo));
         }
